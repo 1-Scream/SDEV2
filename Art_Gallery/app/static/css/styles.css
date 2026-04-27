@@ -90,6 +90,24 @@ h6 {
     filter: brightness(0.95);
 }
 
+.text-primary,
+.link-primary {
+    color: var(--brand) !important;
+}
+
+.btn-outline-primary {
+    color: var(--brand);
+    border-color: var(--brand);
+    background: transparent;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+    background-color: var(--brand);
+    border-color: var(--brand);
+    color: var(--brand-contrast);
+}
+
 .card,
 .accordion-item,
 .form-control,

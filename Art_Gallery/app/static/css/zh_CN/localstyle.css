@@ -25,7 +25,8 @@
     --line: #d8cfc3;
 
     --accent: #3a2e28;
-    --gold: #b5472a;        /* terracotta-red — replaces brown-gold */
+    --gold: #b5472a;
+    /* terracotta-red — replaces brown-gold */
     --white: #fffdf9;
 
     --radius: 4px;
@@ -61,7 +62,8 @@ a {
 .site-heading-upper {
     font-family: 'Noto Serif SC', serif;
     font-size: 0.75rem;
-    letter-spacing: 0.22em;         /* wider — more formal */
+    letter-spacing: 0.22em;
+    /* wider — more formal */
     text-transform: uppercase;
     color: var(--gold);
     display: block;
@@ -70,7 +72,8 @@ a {
 .site-heading-lower {
     font-family: 'Noto Serif SC', serif;
     font-size: clamp(2.5rem, 5vw, 4rem);
-    font-weight: 700;               /* bolder heading */
+    font-weight: 700;
+    /* bolder heading */
     color: var(--text);
     letter-spacing: 0.06em;
 }
@@ -107,8 +110,10 @@ a {
     left: 0;
     bottom: -6px;
     width: 0;
-    height: 2px;                    /* thicker underline */
-    background: var(--gold);        /* red underline accent */
+    height: 2px;
+    /* thicker underline */
+    background: var(--gold);
+    /* red underline accent */
     transition: width var(--transition);
 }
 
@@ -153,7 +158,8 @@ a {
 }
 
 .btn-primary {
-    background: var(--gold);        /* red-terracotta button */
+    background: var(--gold);
+    /* red-terracotta button */
     border: 1px solid var(--gold);
     color: var(--white);
 }
@@ -166,6 +172,24 @@ a {
 .btn-primary:focus,
 .btn-primary:active {
     box-shadow: none;
+}
+
+.text-primary,
+.link-primary {
+    color: var(--gold) !important;
+}
+
+.btn-outline-primary {
+    color: var(--gold);
+    border-color: var(--gold);
+    background: transparent;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+    background: var(--gold);
+    border-color: var(--gold);
+    color: var(--white);
 }
 
 
@@ -185,7 +209,8 @@ main {
 
 .footer {
     background: var(--bg);
-    border-top: 3px double var(--line);     /* double line — lacquerware feel */
+    border-top: 3px double var(--line);
+    /* double line — lacquerware feel */
     color: var(--text-mid);
 }
 
@@ -207,7 +232,8 @@ main {
     max-width: var(--max-w);
     margin: 4rem auto 3rem;
     padding: 0 2rem 2rem;
-    border-bottom: 3px double var(--line);  /* double border */
+    border-bottom: 3px double var(--line);
+    /* double border */
 }
 
 .page-title {
@@ -338,7 +364,7 @@ main {
     text-underline-offset: 2px;
     text-decoration-color: transparent;
     transition: color var(--transition),
-                text-decoration-color var(--transition);
+        text-decoration-color var(--transition);
 }
 
 .catalog-artist-link:hover .catalog-artist-name {
@@ -405,7 +431,8 @@ main {
     gap: 4rem;
     align-items: start;
     padding: 4rem 0 3rem;
-    border-bottom: 3px double var(--line);  /* double border */
+    border-bottom: 3px double var(--line);
+    /* double border */
 }
 
 .artist-page-photo-wrap {
@@ -418,7 +445,8 @@ main {
     border-radius: var(--radius);
     aspect-ratio: 1;
     object-fit: cover;
-    border: 2px solid var(--gold);          /* red accent frame */
+    border: 2px solid var(--gold);
+    /* red accent frame */
 }
 
 .artist-page-label {
@@ -483,7 +511,8 @@ main {
 
 .artist-work-card:hover {
     transform: translateY(-4px);
-    box-shadow: 4px 4px 0 var(--gold);     /* offset shadow in accent colour */
+    box-shadow: 4px 4px 0 var(--gold);
+    /* offset shadow in accent colour */
 }
 
 .artist-work-img {
@@ -568,7 +597,8 @@ main {
 .painting-main-img {
     width: 100%;
     border-radius: var(--radius);
-    box-shadow: 6px 6px 0 var(--gold);     /* hard offset shadow */
+    box-shadow: 6px 6px 0 var(--gold);
+    /* hard offset shadow */
     background: var(--bg-warm);
     border: 1px solid var(--line);
 }
@@ -617,7 +647,8 @@ main {
 .painting-artist-card {
     margin-top: 2.5rem;
     padding: 1.25rem;
-    border: 1px solid var(--gold);         /* red accent border */
+    border: 1px solid var(--gold);
+    /* red accent border */
     border-radius: var(--radius);
     background: var(--bg-card);
     display: flex;
@@ -657,7 +688,7 @@ main {
     padding: 0.75rem 1rem;
     border-radius: var(--radius);
     z-index: 20;
-    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
 }
 
 .painting-artist-bio-tooltip::after {
@@ -728,7 +759,8 @@ main {
 }
 
 .event-card:hover {
-    box-shadow: 4px 4px 0 var(--gold);     /* hard offset shadow on hover */
+    box-shadow: 4px 4px 0 var(--gold);
+    /* hard offset shadow on hover */
 }
 
 .event-highlight {

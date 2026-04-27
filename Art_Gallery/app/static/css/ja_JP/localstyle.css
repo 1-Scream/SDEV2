@@ -25,10 +25,12 @@
     --line: #d8cfc3;
 
     --accent: #3a2e28;
-    --gold: #5a6e7f;        /* sumi ink blue — replaces warm gold */
+    --gold: #5a6e7f;
+    /* sumi ink blue — replaces warm gold */
     --white: #fffdf9;
 
-    --radius: 0px;          /* sharp corners throughout */
+    --radius: 0px;
+    /* sharp corners throughout */
     --transition: 0.22s ease;
 }
 
@@ -42,7 +44,8 @@ body {
     color: var(--text);
     font-family: 'Noto Serif JP', serif;
     font-weight: 300;
-    line-height: 1.85;      /* more airy than Irish version */
+    line-height: 1.85;
+    /* more airy than Irish version */
 }
 
 a {
@@ -62,7 +65,8 @@ a {
 .site-heading-upper {
     font-family: 'Noto Serif JP', serif;
     font-size: 0.75rem;
-    letter-spacing: 0.22em;         /* wider spacing — evokes vertical type */
+    letter-spacing: 0.22em;
+    /* wider spacing — evokes vertical type */
     text-transform: uppercase;
     color: var(--gold);
     display: block;
@@ -84,7 +88,8 @@ a {
 
 .navbar {
     background: var(--bg);
-    border-bottom: 0.5px solid var(--line);     /* thinner border */
+    border-bottom: 0.5px solid var(--line);
+    /* thinner border */
 }
 
 .navbar .nav-link {
@@ -150,7 +155,8 @@ a {
     font-weight: 400;
     letter-spacing: 0.12em;
     text-transform: uppercase;
-    border-radius: 0;               /* sharp corners */
+    border-radius: 0;
+    /* sharp corners */
     padding: 0.65rem 1.5rem;
     transition: all var(--transition);
 }
@@ -169,6 +175,24 @@ a {
 .btn-primary:focus,
 .btn-primary:active {
     box-shadow: none;
+}
+
+.text-primary,
+.link-primary {
+    color: var(--gold) !important;
+}
+
+.btn-outline-primary {
+    color: var(--gold);
+    border-color: var(--gold);
+    background: transparent;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+    background: var(--gold);
+    border-color: var(--gold);
+    color: var(--white);
 }
 
 
@@ -248,7 +272,8 @@ main {
 .catalog-img-link {
     position: relative;
     overflow: hidden;
-    border-radius: 0;               /* sharp corners */
+    border-radius: 0;
+    /* sharp corners */
     background: var(--bg-warm);
     aspect-ratio: 4 / 5;
 }
@@ -261,7 +286,8 @@ main {
 }
 
 .catalog-card:hover .catalog-img {
-    transform: scale(1.02);         /* more subtle zoom */
+    transform: scale(1.02);
+    /* more subtle zoom */
     opacity: 0.9;
 }
 
@@ -344,7 +370,7 @@ main {
     text-underline-offset: 2px;
     text-decoration-color: transparent;
     transition: color var(--transition),
-                text-decoration-color var(--transition);
+        text-decoration-color var(--transition);
 }
 
 .catalog-artist-link:hover .catalog-artist-name {
@@ -421,7 +447,8 @@ main {
 
 .artist-page-photo {
     width: 100%;
-    border-radius: 0;               /* sharp corners */
+    border-radius: 0;
+    /* sharp corners */
     aspect-ratio: 1;
     object-fit: cover;
 }
@@ -447,7 +474,8 @@ main {
 
 .artist-page-story {
     font-size: 1rem;
-    line-height: 2;                 /* generous — meditative feel */
+    line-height: 2;
+    /* generous — meditative feel */
     color: var(--text-mid);
     max-width: 64ch;
     font-weight: 300;
@@ -469,7 +497,8 @@ main {
 .artist-page-divider::after {
     content: '';
     flex: 1;
-    height: 0.5px;                  /* very thin divider lines */
+    height: 0.5px;
+    /* very thin divider lines */
     background: var(--line);
     opacity: 0.5;
 }
@@ -483,14 +512,16 @@ main {
 .artist-work-card {
     display: block;
     overflow: hidden;
-    border-radius: 0;               /* sharp corners */
+    border-radius: 0;
+    /* sharp corners */
     background: var(--bg-warm);
     transition: opacity var(--transition);
     color: inherit;
 }
 
 .artist-work-card:hover {
-    opacity: 0.8;                   /* fade instead of lift */
+    opacity: 0.8;
+    /* fade instead of lift */
 }
 
 .artist-work-img {
@@ -577,8 +608,10 @@ main {
 
 .painting-main-img {
     width: 100%;
-    border-radius: 0;               /* sharp corners */
-    box-shadow: 0 8px 32px rgba(42, 36, 32, 0.08);  /* softer shadow */
+    border-radius: 0;
+    /* sharp corners */
+    box-shadow: 0 8px 32px rgba(42, 36, 32, 0.08);
+    /* softer shadow */
     background: var(--bg-warm);
 }
 
@@ -622,7 +655,8 @@ main {
 .painting-desc {
     margin-top: 1.75rem;
     font-size: 0.95rem;
-    line-height: 2;                 /* generous line height */
+    line-height: 2;
+    /* generous line height */
     color: var(--text-mid);
     font-weight: 300;
 }
@@ -630,7 +664,8 @@ main {
 .painting-artist-card {
     margin-top: 2.5rem;
     padding: 1.25rem;
-    border: 0.5px solid var(--line);    /* very thin border */
+    border: 0.5px solid var(--line);
+    /* very thin border */
     border-radius: 0;
     background: var(--bg-card);
     display: flex;
@@ -670,7 +705,7 @@ main {
     padding: 0.75rem 1rem;
     border-radius: 0;
     z-index: 20;
-    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
 }
 
 .painting-artist-bio-tooltip::after {
@@ -731,7 +766,8 @@ main {
 .event-card {
     padding: 2rem;
     border: 0.5px solid var(--line);
-    border-radius: 0;               /* sharp corners */
+    border-radius: 0;
+    /* sharp corners */
     background: var(--bg-card);
     display: grid;
     grid-template-columns: 160px 1fr;
@@ -742,7 +778,8 @@ main {
 }
 
 .event-card:hover {
-    opacity: 0.85;                  /* fade on hover — restrained */
+    opacity: 0.85;
+    /* fade on hover — restrained */
     box-shadow: none;
 }
 
