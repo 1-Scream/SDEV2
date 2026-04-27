@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-04-25 22:34+0100\n"
+"POT-Creation-Date: 2026-04-27 14:31+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,6 +46,7 @@ msgid "Gallery"
 msgstr ""
 
 #: app/templates/base.html:58 app/templates/events.html:7
+#: app/templates/index.html:55 app/templates/index.html:58
 msgid "Events"
 msgstr ""
 
@@ -111,7 +112,7 @@ msgstr ""
 msgid "Technical issue"
 msgstr ""
 
-#: app/templates/contact.html:38 app/templates/submit.html:94
+#: app/templates/contact.html:38 app/templates/submit.html:106
 msgid "Other"
 msgstr ""
 
@@ -199,48 +200,49 @@ msgstr ""
 msgid "Current Exhibitions"
 msgstr ""
 
-#: app/templates/events.html:8
+#: app/templates/events.html:8 app/templates/index.html:56
 msgid "Explore upcoming exhibitions, talks, and cultural programs."
 msgstr ""
 
-#: app/templates/events.html:21
+#: app/templates/events.html:21 app/templates/index.html:64
 msgid "Seasonal Exhibition"
 msgstr ""
 
 #: app/templates/events.html:22 app/templates/events.html:31
-#: app/templates/events.html:40
+#: app/templates/events.html:40 app/templates/index.html:65
+#: app/templates/index.html:73 app/templates/index.html:81
 msgid "Date:"
 msgstr ""
 
-#: app/templates/events.html:22
+#: app/templates/events.html:22 app/templates/index.html:65
 msgid "12 May 2026"
 msgstr ""
 
-#: app/templates/events.html:23
+#: app/templates/events.html:23 app/templates/index.html:66
 msgid "A curated showcase of contemporary works from featured artists."
 msgstr ""
 
-#: app/templates/events.html:30
+#: app/templates/events.html:30 app/templates/index.html:72
 msgid "Artist Talk"
 msgstr ""
 
-#: app/templates/events.html:31
+#: app/templates/events.html:31 app/templates/index.html:73
 msgid "26 May 2026"
 msgstr ""
 
-#: app/templates/events.html:32
+#: app/templates/events.html:32 app/templates/index.html:74
 msgid "Join an open discussion with guest artists about process and inspiration."
 msgstr ""
 
-#: app/templates/events.html:39
+#: app/templates/events.html:39 app/templates/index.html:80
 msgid "Community Workshop"
 msgstr ""
 
-#: app/templates/events.html:40
+#: app/templates/events.html:40 app/templates/index.html:81
 msgid "9 June 2026"
 msgstr ""
 
-#: app/templates/events.html:41
+#: app/templates/events.html:41 app/templates/index.html:82
 msgid "Hands-on creative workshop open to students and local communities."
 msgstr ""
 
@@ -308,16 +310,27 @@ msgstr ""
 msgid "Featured Preview"
 msgstr ""
 
-#: app/templates/index.html:22
-msgid "Brief description of the first image goes here."
+#: app/templates/index.html:23 app/templates/index.html:32
+#: app/templates/index.html:41
+msgid "Author:"
 msgstr ""
 
-#: app/templates/index.html:27
-msgid "Brief description of the second image goes here."
+#: app/templates/index.html:24
+msgid ""
+"A windswept oak stands against a pale sky, its branches twisting like "
+"brushstrokes of memory and resilience."
 msgstr ""
 
-#: app/templates/index.html:32
-msgid "Brief description of the third image goes here."
+#: app/templates/index.html:33
+msgid ""
+"Soft layers of green and amber suggest a quiet forest at dusk, where "
+"light fades slowly and every leaf feels alive."
+msgstr ""
+
+#: app/templates/index.html:42
+msgid ""
+"A dreamlike study of texture and shadow, this piece captures the "
+"stillness of nature just before evening rain."
 msgstr ""
 
 #: app/templates/submit.html:7
@@ -368,95 +381,105 @@ msgstr ""
 msgid "Artist Portfolio"
 msgstr ""
 
-#: app/templates/submit.html:62
+#: app/templates/submit.html:64 app/templates/submit.html:77
+#: app/templates/submit.html:129
+msgid "Choose file"
+msgstr ""
+
+#: app/templates/submit.html:66 app/templates/submit.html:79
+#: app/templates/submit.html:131
+msgid "No file chosen"
+msgstr ""
+
+#: app/templates/submit.html:68
 msgid ""
 "Optional — upload a PDF, ZIP, or image file of your portfolio. Max size: "
 "20MB."
 msgstr ""
 
-#: app/templates/submit.html:66
+#: app/templates/submit.html:72
 msgid "Artist CV / Resume"
 msgstr ""
 
-#: app/templates/submit.html:69
+#: app/templates/submit.html:81
 msgid "Optional — upload your CV or resume in PDF or Word format. Max size: 10MB."
 msgstr ""
 
-#: app/templates/submit.html:75
+#: app/templates/submit.html:87
 msgid "Artwork Details"
 msgstr ""
 
-#: app/templates/submit.html:78
+#: app/templates/submit.html:90
 msgid "Artwork Title *"
 msgstr ""
 
-#: app/templates/submit.html:84
+#: app/templates/submit.html:96
 msgid "Medium / Type *"
 msgstr ""
 
-#: app/templates/submit.html:86
+#: app/templates/submit.html:98
 msgid "Select a medium..."
 msgstr ""
 
-#: app/templates/submit.html:87
+#: app/templates/submit.html:99
 msgid "Painting"
 msgstr ""
 
-#: app/templates/submit.html:88
+#: app/templates/submit.html:100
 msgid "Sculpture"
 msgstr ""
 
-#: app/templates/submit.html:89
+#: app/templates/submit.html:101
 msgid "Photography"
 msgstr ""
 
-#: app/templates/submit.html:90
+#: app/templates/submit.html:102
 msgid "Digital Art"
 msgstr ""
 
-#: app/templates/submit.html:91
+#: app/templates/submit.html:103
 msgid "Printmaking"
 msgstr ""
 
-#: app/templates/submit.html:92
+#: app/templates/submit.html:104
 msgid "Textile / Fibre"
 msgstr ""
 
-#: app/templates/submit.html:93
+#: app/templates/submit.html:105
 msgid "Mixed Media"
 msgstr ""
 
-#: app/templates/submit.html:98
+#: app/templates/submit.html:110
 msgid "Year Created *"
 msgstr ""
 
-#: app/templates/submit.html:105
+#: app/templates/submit.html:117
 msgid "Description / Concept *"
 msgstr ""
 
-#: app/templates/submit.html:107
+#: app/templates/submit.html:119
 msgid "Describe the artwork, its inspiration, and meaning..."
 msgstr ""
 
-#: app/templates/submit.html:112
+#: app/templates/submit.html:124
 msgid "Upload Artwork Image *"
 msgstr ""
 
-#: app/templates/submit.html:115
+#: app/templates/submit.html:133
 msgid "Accepted formats: JPG, PNG, WEBP. Max size: 10MB."
 msgstr ""
 
-#: app/templates/submit.html:125
+#: app/templates/submit.html:143
 msgid ""
 "I confirm that this is my original work and I consent to the gallery "
 "reviewing it for potential display. *"
 msgstr ""
 
-#: app/templates/submit.html:132
+#: app/templates/submit.html:150
 msgid "Clear Form"
 msgstr ""
 
-#: app/templates/submit.html:135
+#: app/templates/submit.html:153
 msgid "Submit for Review"
 msgstr ""
 

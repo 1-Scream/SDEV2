@@ -101,3 +101,18 @@ body {
 .footer .small {
     color: var(--text-mid);
 }
+
+/* ZH locale: stronger section accent and clarity */
+.events-box {
+    border-left: 4px solid var(--accent);
+    border-radius: 6px;
+}
+
+.event-card {
+    border-radius: 6px;
+    background: var(--bg-card);
+}
+
+.events-header h3 {
+    font-weight: 700;
+}

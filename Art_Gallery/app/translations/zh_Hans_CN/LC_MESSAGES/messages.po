@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Global Art Gallery\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-25 22:34+0100\n"
+"POT-Creation-Date: 2026-04-27 14:31+0100\n"
 "PO-Revision-Date: 2026-04-22 00:00+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh_CN\n"
@@ -45,6 +45,7 @@ msgid "Gallery"
 msgstr "画廊"
 
 #: app/templates/base.html:58 app/templates/events.html:7
+#: app/templates/index.html:55 app/templates/index.html:58
 msgid "Events"
 msgstr "活动"
 
@@ -112,7 +113,7 @@ msgstr "活动与展览"
 msgid "Technical issue"
 msgstr "技术问题"
 
-#: app/templates/contact.html:38 app/templates/submit.html:94
+#: app/templates/contact.html:38 app/templates/submit.html:106
 msgid "Other"
 msgstr "其他"
 
@@ -200,48 +201,49 @@ msgstr "作品提交指南"
 msgid "Current Exhibitions"
 msgstr "当前展览"
 
-#: app/templates/events.html:8
+#: app/templates/events.html:8 app/templates/index.html:56
 msgid "Explore upcoming exhibitions, talks, and cultural programs."
 msgstr "探索即将举行的展览、艺术讲座与文化活动。"
 
-#: app/templates/events.html:21
+#: app/templates/events.html:21 app/templates/index.html:64
 msgid "Seasonal Exhibition"
 msgstr "季度展览"
 
 #: app/templates/events.html:22 app/templates/events.html:31
-#: app/templates/events.html:40
+#: app/templates/events.html:40 app/templates/index.html:65
+#: app/templates/index.html:73 app/templates/index.html:81
 msgid "Date:"
 msgstr "日期："
 
-#: app/templates/events.html:22
+#: app/templates/events.html:22 app/templates/index.html:65
 msgid "12 May 2026"
 msgstr "2026年5月12日"
 
-#: app/templates/events.html:23
+#: app/templates/events.html:23 app/templates/index.html:66
 msgid "A curated showcase of contemporary works from featured artists."
 msgstr "精选展出重点艺术家的当代作品。"
 
-#: app/templates/events.html:30
+#: app/templates/events.html:30 app/templates/index.html:72
 msgid "Artist Talk"
 msgstr "艺术家讲座"
 
-#: app/templates/events.html:31
+#: app/templates/events.html:31 app/templates/index.html:73
 msgid "26 May 2026"
 msgstr "2026年5月26日"
 
-#: app/templates/events.html:32
+#: app/templates/events.html:32 app/templates/index.html:74
 msgid "Join an open discussion with guest artists about process and inspiration."
 msgstr "欢迎参加与特邀艺术家的开放交流，探讨创作过程与灵感来源。"
 
-#: app/templates/events.html:39
+#: app/templates/events.html:39 app/templates/index.html:80
 msgid "Community Workshop"
 msgstr "社区工作坊"
 
-#: app/templates/events.html:40
+#: app/templates/events.html:40 app/templates/index.html:81
 msgid "9 June 2026"
 msgstr "2026年6月9日"
 
-#: app/templates/events.html:41
+#: app/templates/events.html:41 app/templates/index.html:82
 msgid "Hands-on creative workshop open to students and local communities."
 msgstr "面向学生与本地社区开放的实践型创意工作坊。"
 
@@ -312,17 +314,28 @@ msgstr "探索画廊"
 msgid "Featured Preview"
 msgstr "精选预览"
 
-#: app/templates/index.html:22
-msgid "Brief description of the first image goes here."
-msgstr "此处为第一张图片的简要说明。"
+#: app/templates/index.html:23 app/templates/index.html:32
+#: app/templates/index.html:41
+msgid "Author:"
+msgstr ""
 
-#: app/templates/index.html:27
-msgid "Brief description of the second image goes here."
-msgstr "此处为第二张图片的简要说明。"
+#: app/templates/index.html:24
+msgid ""
+"A windswept oak stands against a pale sky, its branches twisting like "
+"brushstrokes of memory and resilience."
+msgstr "这幅作品如梦似幻地描绘了纹理和光影，捕捉了傍晚雨前大自然的静谧。"
 
-#: app/templates/index.html:32
-msgid "Brief description of the third image goes here."
-msgstr "此处为第三张图片的简要说明。"
+#: app/templates/index.html:33
+msgid ""
+"Soft layers of green and amber suggest a quiet forest at dusk, where "
+"light fades slowly and every leaf feels alive."
+msgstr "柔和的绿色和琥珀色交织成层，仿佛描绘出黄昏时分静谧的森林，光线缓缓消逝，每一片叶子都仿佛充满了生机。"
+
+#: app/templates/index.html:42
+msgid ""
+"A dreamlike study of texture and shadow, this piece captures the "
+"stillness of nature just before evening rain."
+msgstr "这幅作品如梦似幻地描绘了纹理和光影，捕捉了傍晚雨前大自然的静谧。"
 
 # --- submit.html ---
 #: app/templates/submit.html:7
@@ -373,95 +386,105 @@ msgstr "介绍一下您自己和您的艺术背景..."
 msgid "Artist Portfolio"
 msgstr "艺术家作品集"
 
-#: app/templates/submit.html:62
+#: app/templates/submit.html:64 app/templates/submit.html:77
+#: app/templates/submit.html:129
+msgid "Choose file"
+msgstr ""
+
+#: app/templates/submit.html:66 app/templates/submit.html:79
+#: app/templates/submit.html:131
+msgid "No file chosen"
+msgstr ""
+
+#: app/templates/submit.html:68
 msgid ""
 "Optional — upload a PDF, ZIP, or image file of your portfolio. Max size: "
 "20MB."
 msgstr "选填 — 上传您的作品集 PDF、ZIP 或图片文件。最大大小：20MB。"
 
-#: app/templates/submit.html:66
+#: app/templates/submit.html:72
 msgid "Artist CV / Resume"
 msgstr "艺术家简历 / 履历"
 
-#: app/templates/submit.html:69
+#: app/templates/submit.html:81
 msgid "Optional — upload your CV or resume in PDF or Word format. Max size: 10MB."
 msgstr "选填 — 请上传 PDF 或 Word 格式的简历。最大大小：10MB。"
 
-#: app/templates/submit.html:75
+#: app/templates/submit.html:87
 msgid "Artwork Details"
 msgstr "作品详情"
 
-#: app/templates/submit.html:78
+#: app/templates/submit.html:90
 msgid "Artwork Title *"
 msgstr "作品标题 *"
 
-#: app/templates/submit.html:84
+#: app/templates/submit.html:96
 msgid "Medium / Type *"
 msgstr "媒介 / 类型 *"
 
-#: app/templates/submit.html:86
+#: app/templates/submit.html:98
 msgid "Select a medium..."
 msgstr "选择媒介..."
 
-#: app/templates/submit.html:87
+#: app/templates/submit.html:99
 msgid "Painting"
 msgstr "绘画"
 
-#: app/templates/submit.html:88
+#: app/templates/submit.html:100
 msgid "Sculpture"
 msgstr "雕塑"
 
-#: app/templates/submit.html:89
+#: app/templates/submit.html:101
 msgid "Photography"
 msgstr "摄影"
 
-#: app/templates/submit.html:90
+#: app/templates/submit.html:102
 msgid "Digital Art"
 msgstr "数字艺术"
 
-#: app/templates/submit.html:91
+#: app/templates/submit.html:103
 msgid "Printmaking"
 msgstr "版画"
 
-#: app/templates/submit.html:92
+#: app/templates/submit.html:104
 msgid "Textile / Fibre"
 msgstr "纺织 / 纤维"
 
-#: app/templates/submit.html:93
+#: app/templates/submit.html:105
 msgid "Mixed Media"
 msgstr "混合媒介"
 
-#: app/templates/submit.html:98
+#: app/templates/submit.html:110
 msgid "Year Created *"
 msgstr "创作年份 *"
 
-#: app/templates/submit.html:105
+#: app/templates/submit.html:117
 msgid "Description / Concept *"
 msgstr "描述 / 创作概念 *"
 
-#: app/templates/submit.html:107
+#: app/templates/submit.html:119
 msgid "Describe the artwork, its inspiration, and meaning..."
 msgstr "描述作品、其灵感来源和含义..."
 
-#: app/templates/submit.html:112
+#: app/templates/submit.html:124
 msgid "Upload Artwork Image *"
 msgstr "上传作品图片 *"
 
-#: app/templates/submit.html:115
+#: app/templates/submit.html:133
 msgid "Accepted formats: JPG, PNG, WEBP. Max size: 10MB."
 msgstr "支持格式：JPG、PNG、WEBP。最大大小：10MB。"
 
-#: app/templates/submit.html:125
+#: app/templates/submit.html:143
 msgid ""
 "I confirm that this is my original work and I consent to the gallery "
 "reviewing it for potential display. *"
 msgstr "我确认这是我的原创作品，并同意画廊对其进行审核以考虑展示。*"
 
-#: app/templates/submit.html:132
+#: app/templates/submit.html:150
 msgid "Clear Form"
 msgstr "清除表格"
 
-#: app/templates/submit.html:135
+#: app/templates/submit.html:153
 msgid "Submit for Review"
 msgstr "提交审核"
 
@@ -498,4 +521,13 @@ msgstr "返回联系页面"
 
 #~ msgid "Submit Work"
 #~ msgstr "提交作品"
+
+#~ msgid "Brief description of the first image goes here."
+#~ msgstr "此处为第一张图片的简要说明。"
+
+#~ msgid "Brief description of the second image goes here."
+#~ msgstr "此处为第二张图片的简要说明。"
+
+#~ msgid "Brief description of the third image goes here."
+#~ msgstr "此处为第三张图片的简要说明。"
 

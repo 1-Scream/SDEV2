@@ -19,19 +19,73 @@
           <div class="gallery">
             <div class="gallery-item">
               <img src="/static/assets/img/tree1.png" alt="Tree artwork 1" />
-              <p>{{ _('Brief description of the first image goes here.') }}</p>
+                <p>
+                  <strong>{{ _('Author:') }}</strong> Aisling Byrne<br />
+                  {{ _('A windswept oak stands against a pale sky, its branches twisting like brushstrokes of memory and resilience.') }}
+                </p>
+
             </div>
 
             <div class="gallery-item">
               <img src="/static/assets/img/tree2.png" alt="Tree artwork 2" />
-              <p>{{ _('Brief description of the second image goes here.') }}</p>
+                <p>
+                  <strong>{{ _('Author:') }}</strong> Kenji Sato<br />
+                  {{ _('Soft layers of green and amber suggest a quiet forest at dusk, where light fades slowly and every leaf feels alive.') }}
+                </p>
+
             </div>
 
             <div class="gallery-item">
               <img src="/static/assets/img/tree2.png" alt="Tree artwork 3" />
-              <p>{{ _('Brief description of the third image goes here.') }}</p>
+                <p>
+                  <strong>{{ _('Author:') }}</strong> Lin Mei<br />
+                  {{ _('A dreamlike study of texture and shadow, this piece captures the stillness of nature just before evening rain.') }}
+                </p>
+
             </div>
           </div>
         </div>
       </section>
+
+    <section class="page-section upcoming-events">
+      <div class="container">
+        <div class="events-box">
+          <div class="events-header">
+            <div>
+              <h3>{{ _('Events') }}</h3>
+              <p>{{ _('Explore upcoming exhibitions, talks, and cultural programs.') }}</p>
+            </div>
+            <a class="btn btn-outline-primary" href="/events">{{ _('Events') }}</a>
+          </div>
+
+          <div class="row g-3">
+            <div class="col-md-4">
+              <article class="event-card">
+                <h5>{{ _('Seasonal Exhibition') }}</h5>
+                <p><strong>{{ _('Date:') }}</strong> {{ _('12 May 2026') }}</p>
+                <p>{{ _('A curated showcase of contemporary works from featured artists.') }}</p>
+              </article>
+            </div>
+
+            <div class="col-md-4">
+              <article class="event-card">
+                <h5>{{ _('Artist Talk') }}</h5>
+                <p><strong>{{ _('Date:') }}</strong> {{ _('26 May 2026') }}</p>
+                <p>{{ _('Join an open discussion with guest artists about process and inspiration.') }}</p>
+              </article>
+            </div>
+
+            <div class="col-md-4">
+              <article class="event-card">
+                <h5>{{ _('Community Workshop') }}</h5>
+                <p><strong>{{ _('Date:') }}</strong> {{ _('9 June 2026') }}</p>
+                <p>{{ _('Hands-on creative workshop open to students and local communities.') }}</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
       {% endblock %}

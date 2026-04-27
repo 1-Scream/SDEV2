@@ -47,3 +47,12 @@
 .btn {
 	border-radius: 999px;
 }
+
+
+.events-box {
+    border-color: color-mix(in srgb, var(--brand) 20%, var(--line));
+}
+
+.event-card {
+    border-radius: 12px;
+}

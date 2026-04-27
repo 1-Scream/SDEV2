@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Global Art Gallery\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-25 22:34+0100\n"
+"POT-Creation-Date: 2026-04-27 14:31+0100\n"
 "PO-Revision-Date: 2026-04-22 00:00+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ja_JP\n"
@@ -45,6 +45,7 @@ msgid "Gallery"
 msgstr "ギャラリー"
 
 #: app/templates/base.html:58 app/templates/events.html:7
+#: app/templates/index.html:55 app/templates/index.html:58
 msgid "Events"
 msgstr "イベント"
 
@@ -112,7 +113,7 @@ msgstr "イベントと展覧会"
 msgid "Technical issue"
 msgstr "技術的な問題"
 
-#: app/templates/contact.html:38 app/templates/submit.html:94
+#: app/templates/contact.html:38 app/templates/submit.html:106
 msgid "Other"
 msgstr "その他"
 
@@ -200,48 +201,49 @@ msgstr "作品応募ガイド"
 msgid "Current Exhibitions"
 msgstr "現在の展覧会"
 
-#: app/templates/events.html:8
+#: app/templates/events.html:8 app/templates/index.html:56
 msgid "Explore upcoming exhibitions, talks, and cultural programs."
 msgstr "今後開催される展覧会、講演会、文化プログラムをご覧ください。"
 
-#: app/templates/events.html:21
+#: app/templates/events.html:21 app/templates/index.html:64
 msgid "Seasonal Exhibition"
 msgstr "季節展"
 
 #: app/templates/events.html:22 app/templates/events.html:31
-#: app/templates/events.html:40
+#: app/templates/events.html:40 app/templates/index.html:65
+#: app/templates/index.html:73 app/templates/index.html:81
 msgid "Date:"
 msgstr "日付："
 
-#: app/templates/events.html:22
+#: app/templates/events.html:22 app/templates/index.html:65
 msgid "12 May 2026"
 msgstr "2026年5月12日"
 
-#: app/templates/events.html:23
+#: app/templates/events.html:23 app/templates/index.html:66
 msgid "A curated showcase of contemporary works from featured artists."
 msgstr "注目のアーティストによる現代作品を集めた厳選された展示。"
 
-#: app/templates/events.html:30
+#: app/templates/events.html:30 app/templates/index.html:72
 msgid "Artist Talk"
 msgstr "アーティストトーク"
 
-#: app/templates/events.html:31
+#: app/templates/events.html:31 app/templates/index.html:73
 msgid "26 May 2026"
 msgstr "2026年5月26日"
 
-#: app/templates/events.html:32
+#: app/templates/events.html:32 app/templates/index.html:74
 msgid "Join an open discussion with guest artists about process and inspiration."
 msgstr "ゲストアーティストと共に、制作過程やインスピレーションについて語り合うオープンディスカッションにご参加ください。"
 
-#: app/templates/events.html:39
+#: app/templates/events.html:39 app/templates/index.html:80
 msgid "Community Workshop"
 msgstr "コミュニティワークショップ"
 
-#: app/templates/events.html:40
+#: app/templates/events.html:40 app/templates/index.html:81
 msgid "9 June 2026"
 msgstr "2026年6月9日"
 
-#: app/templates/events.html:41
+#: app/templates/events.html:41 app/templates/index.html:82
 msgid "Hands-on creative workshop open to students and local communities."
 msgstr "学生や地域住民を対象とした、実践的な創作ワークショップ。"
 
@@ -312,17 +314,28 @@ msgstr "ギャラリーを探索"
 msgid "Featured Preview"
 msgstr "注目のプレビュー"
 
-#: app/templates/index.html:22
-msgid "Brief description of the first image goes here."
-msgstr "最初の画像の簡単な説明をここに記述します。"
+#: app/templates/index.html:23 app/templates/index.html:32
+#: app/templates/index.html:41
+msgid "Author:"
+msgstr "著者："
 
-#: app/templates/index.html:27
-msgid "Brief description of the second image goes here."
-msgstr "2枚目の画像の簡単な説明をここに記載します。"
+#: app/templates/index.html:24
+msgid ""
+"A windswept oak stands against a pale sky, its branches twisting like "
+"brushstrokes of memory and resilience."
+msgstr "風に吹かれた樫の木が淡い空を背景にそびえ立ち、その枝はまるで記憶と回復力の筆致のようにねじれている"
 
-#: app/templates/index.html:32
-msgid "Brief description of the third image goes here."
-msgstr "3枚目の画像の簡単な説明をここに記載します。"
+#: app/templates/index.html:33
+msgid ""
+"Soft layers of green and amber suggest a quiet forest at dusk, where "
+"light fades slowly and every leaf feels alive."
+msgstr "緑と琥珀色の柔らかな層が、夕暮れ時の静かな森を思わせる。そこでは光がゆっくりと薄れ、一枚一枚の葉が生き生きとしている"
+
+#: app/templates/index.html:42
+msgid ""
+"A dreamlike study of texture and shadow, this piece captures the "
+"stillness of nature just before evening rain."
+msgstr "緑と琥珀色の柔らかな層が、夕暮れ時の静かな森を思わせる。そこでは光がゆっくりと薄れ、一枚一枚の葉が生き生きとしている"
 
 # --- submit.html ---
 #: app/templates/submit.html:7
@@ -373,95 +386,105 @@ msgstr "ご自身とあなたの芸術的な背景についてご紹介くださ
 msgid "Artist Portfolio"
 msgstr "アーティストポートフォリオ"
 
-#: app/templates/submit.html:62
+#: app/templates/submit.html:64 app/templates/submit.html:77
+#: app/templates/submit.html:129
+msgid "Choose file"
+msgstr ""
+
+#: app/templates/submit.html:66 app/templates/submit.html:79
+#: app/templates/submit.html:131
+msgid "No file chosen"
+msgstr ""
+
+#: app/templates/submit.html:68
 msgid ""
 "Optional — upload a PDF, ZIP, or image file of your portfolio. Max size: "
 "20MB."
 msgstr "任意 — ポートフォリオのPDF、ZIP、または画像ファイルをアップロードしてください。最大サイズ：20MB。"
 
-#: app/templates/submit.html:66
+#: app/templates/submit.html:72
 msgid "Artist CV / Resume"
 msgstr "アーティストの職務経歴書 / 履歴書"
 
-#: app/templates/submit.html:69
+#: app/templates/submit.html:81
 msgid "Optional — upload your CV or resume in PDF or Word format. Max size: 10MB."
 msgstr "任意 — PDFまたはWord形式の職務経歴書をアップロードしてください。最大サイズ：10MB。"
 
-#: app/templates/submit.html:75
+#: app/templates/submit.html:87
 msgid "Artwork Details"
 msgstr "作品詳細"
 
-#: app/templates/submit.html:78
+#: app/templates/submit.html:90
 msgid "Artwork Title *"
 msgstr "作品タイトル *"
 
-#: app/templates/submit.html:84
+#: app/templates/submit.html:96
 msgid "Medium / Type *"
 msgstr "素材 / ジャンル *"
 
-#: app/templates/submit.html:86
+#: app/templates/submit.html:98
 msgid "Select a medium..."
 msgstr "素材を選択..."
 
-#: app/templates/submit.html:87
+#: app/templates/submit.html:99
 msgid "Painting"
 msgstr "絵画"
 
-#: app/templates/submit.html:88
+#: app/templates/submit.html:100
 msgid "Sculpture"
 msgstr "彫刻"
 
-#: app/templates/submit.html:89
+#: app/templates/submit.html:101
 msgid "Photography"
 msgstr "写真"
 
-#: app/templates/submit.html:90
+#: app/templates/submit.html:102
 msgid "Digital Art"
 msgstr "デジタルアート"
 
-#: app/templates/submit.html:91
+#: app/templates/submit.html:103
 msgid "Printmaking"
 msgstr "版画"
 
-#: app/templates/submit.html:92
+#: app/templates/submit.html:104
 msgid "Textile / Fibre"
 msgstr "テキスタイル"
 
-#: app/templates/submit.html:93
+#: app/templates/submit.html:105
 msgid "Mixed Media"
 msgstr "ミクストメディア"
 
-#: app/templates/submit.html:98
+#: app/templates/submit.html:110
 msgid "Year Created *"
 msgstr "制作年 *"
 
-#: app/templates/submit.html:105
+#: app/templates/submit.html:117
 msgid "Description / Concept *"
 msgstr "説明 / コンセプト *"
 
-#: app/templates/submit.html:107
+#: app/templates/submit.html:119
 msgid "Describe the artwork, its inspiration, and meaning..."
 msgstr "作品、インスピレーション、意味についてご説明ください..."
 
-#: app/templates/submit.html:112
+#: app/templates/submit.html:124
 msgid "Upload Artwork Image *"
 msgstr "作品画像をアップロード *"
 
-#: app/templates/submit.html:115
+#: app/templates/submit.html:133
 msgid "Accepted formats: JPG, PNG, WEBP. Max size: 10MB."
 msgstr "対応形式：JPG、PNG、WEBP。最大サイズ：10MB。"
 
-#: app/templates/submit.html:125
+#: app/templates/submit.html:143
 msgid ""
 "I confirm that this is my original work and I consent to the gallery "
 "reviewing it for potential display. *"
 msgstr "これが私のオリジナル作品であることを確認し、ギャラリーによる審査に同意します。*"
 
-#: app/templates/submit.html:132
+#: app/templates/submit.html:150
 msgid "Clear Form"
 msgstr "フォームをクリア"
 
-#: app/templates/submit.html:135
+#: app/templates/submit.html:153
 msgid "Submit for Review"
 msgstr "審査に応募"
 
@@ -500,4 +523,13 @@ msgstr "お問い合わせページに戻る"
 
 #~ msgid "Submit Work"
 #~ msgstr "作品応募"
+
+#~ msgid "Brief description of the first image goes here."
+#~ msgstr "最初の画像の簡単な説明をここに記述します。"
+
+#~ msgid "Brief description of the second image goes here."
+#~ msgstr "2枚目の画像の簡単な説明をここに記載します。"
+
+#~ msgid "Brief description of the third image goes here."
+#~ msgstr "3枚目の画像の簡単な説明をここに記載します。"
 

@@ -101,3 +101,17 @@ body {
 .footer .small {
     color: var(--text-mid);
 }
+
+
+.events-box {
+    border-radius: 4px;
+}
+
+.event-card {
+    border-radius: 4px;
+    background: var(--bg-card);
+}
+
+.events-header h3 {
+    letter-spacing: 0.03em;
+}
