@@ -11,63 +11,247 @@ msgstr "作品"
 msgid "Back to Catalog"
 msgstr "カタログに戻る"
 
+#: app/templates/base.html:10 app/templates/base.html:43
+msgid "Global Art Gallery"
+msgstr "グローバル・アート・ギャラリー"
+
 #: app/templates/base.html:40
 msgid "Experience Art Through Irish Perspective"
-msgstr "日本の視点で芸術を体験"
+msgstr "日本の視点でアートを体験"
+
+#: app/templates/base.html:54
+msgid "Art Gallery"
+msgstr "アートギャラリー"
+
+#: app/templates/base.html:66
+msgid "Home"
+msgstr "ホーム"
 
 #: app/templates/base.html:70 app/templates/gallery.html:7
 msgid "Catalog"
 msgstr "カタログ"
 
+#: app/templates/base.html:73 app/templates/events.html:7
+msgid "Events"
+msgstr "イベント"
+
+#: app/templates/base.html:76 app/templates/gallery.html:94
+msgid "Submit Your Art"
+msgstr "作品を投稿する"
+
+#: app/templates/base.html:79 app/templates/contact.html:7
+msgid "Contact Us"
+msgstr "お問い合わせ"
+
+#: app/templates/base.html:86
+msgid ">Language"
+msgstr "言語"
+
+#: app/templates/base.html:91
+msgid "English"
+msgstr "英語"
+
+#: app/templates/base.html:96
+msgid "中文"
+msgstr "中国語"
+
+#: app/templates/base.html:101
+msgid "日本語"
+msgstr "日本語"
+
+#: app/templates/base.html:126
+msgid "© 2026 Global Art Gallery"
+msgstr "© 2026 グローバル・アート・ギャラリー"
+
+#: app/templates/contact.html:8
+msgid "Reach out with questions, partnership enquiries, artwork support requests, or media enquiries."
+msgstr "ご質問、提携に関するお問い合わせ、作品投稿サポート、またはメディア関連のお問い合わせがございましたらご連絡ください。"
+
+#: app/templates/contact.html:21
+msgid "Name"
+msgstr "氏名"
+
+#: app/templates/contact.html:25
+msgid "Email"
+msgstr "メールアドレス"
+
+#: app/templates/contact.html:29
+msgid "Reason for Contact"
+msgstr "お問い合わせ内容"
+
+#: app/templates/contact.html:31
+msgid "Select a reason..."
+msgstr "理由を選択してください…"
+
+#: app/templates/contact.html:32
+msgid "General enquiry"
+msgstr "一般的なお問い合わせ"
+
+#: app/templates/contact.html:33
+msgid "Artwork submission support"
+msgstr "作品投稿のサポート"
+
+#: app/templates/contact.html:34
+msgid "Partnership or collaboration"
+msgstr "提携・コラボレーション"
+
+#: app/templates/contact.html:35
+msgid "Press or media enquiry"
+msgstr "プレス・メディア関係のお問い合わせ"
+
+#: app/templates/contact.html:36
+msgid "Events and exhibitions"
+msgstr "イベント・展示会"
+
+#: app/templates/contact.html:37
+msgid "Technical issue"
+msgstr "技術的な問題"
+
+#: app/templates/contact.html:38 app/templates/submit.html:94
+msgid "Other"
+msgstr "その他"
+
+#: app/templates/contact.html:42
+msgid "If Other, Please Specify"
+msgstr "その他の場合はご記入ください"
+
+#: app/templates/contact.html:44
+msgid "Add a short subject or purpose"
+msgstr "件名または目的を簡単に入力してください"
+
+#: app/templates/contact.html:47
+msgid "Message"
+msgstr "メッセージ"
+
+#: app/templates/contact.html:49
+msgid "Tell us how we can help..."
+msgstr "ご用件をご記入ください…"
+
+#: app/templates/contact.html:51
+msgid "Send"
+msgstr "送信"
+
+#: app/templates/contact.html:58
+msgid "Contact Information"
+msgstr "連絡先情報"
+
+#: app/templates/contact.html:59
+msgid "Hours of Operation:"
+msgstr "営業時間："
+
+#: app/templates/contact.html:59
+msgid "Monday to Friday, 9:00 AM to 5:30 PM"
+msgstr "月曜日〜金曜日 9:00〜17:30"
+
+#: app/templates/contact.html:60
+msgid "Expected Response Time:"
+msgstr "返信予定時間："
+
+#: app/templates/contact.html:60
+msgid "We aim to respond to calls and emails within 1 to 2 business days."
+msgstr "お電話およびメールには1〜2営業日以内に返信するよう努めています。"
+
+#: app/templates/contact.html:61
+msgid "Phone:"
+msgstr "電話："
+
+#: app/templates/contact.html:62
+msgid "Email:"
+msgstr "メール："
+
+#: app/templates/contact.html:68
+msgid "Social Media"
+msgstr "ソーシャルメディア"
+
+#: app/templates/contact.html:70
+msgid "Instagram"
+msgstr "Instagram"
+
+#: app/templates/contact.html:71
+msgid "Facebook"
+msgstr "Facebook"
+
+#: app/templates/contact.html:72
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: app/templates/contact.html:79
+msgid "Helpful Resources"
+msgstr "役立つ情報"
+
+#: app/templates/contact.html:80
+msgid "While you wait, these pages may answer common questions."
+msgstr "お待ちの間、こちらのページがよくあるご質問の参考になります。"
+
+#: app/templates/contact.html:82 app/templates/thank_you.html:26
+msgid "View FAQs"
+msgstr "よくある質問を見る"
+
+#: app/templates/contact.html:83
+msgid "Artwork Submission Guide"
+msgstr "作品投稿ガイド"
+
+#: app/templates/contact.html:84
+msgid "Current Exhibitions"
+msgstr "現在開催中の展示"
+
+#: app/templates/events.html:8
+msgid "Explore upcoming exhibitions, talks, and cultural programs."
+msgstr "今後の展示、トークイベント、文化プログラムをご覧ください。"
+
 #: app/templates/gallery.html:8
 msgid "A curated selection from the gallery collection."
-msgstr "ギャラリーコレクションから厳選された作品をご覧ください。"
+msgstr "ギャラリーコレクションから厳選された作品です。"
 
-#: app/templates/gallery.html:28 app/templates/gallery.html:55
-#: app/templates/gallery.html:67 app/templates/gallery.html:79
-msgid "View Work"
-msgstr "作品を見る"
+#: app/templates/index.html:7
+msgid "Welcome to the Global Art Gallery"
+msgstr "グローバル・アート・ギャラリーへようこそ"
 
-#: app/templates/gallery.html:53 app/templates/gallery.html:54
-msgid "Featured work one"
-msgstr "注目作品1"
+#: app/templates/index.html:8
+msgid "Celebrating art and culture from around the world."
+msgstr "世界中のアートと文化を称える場所です。"
 
-#: app/templates/gallery.html:58
-msgid "Stillness in Branches"
-msgstr "枝の静寂"
-
-#: app/templates/gallery.html:59
-msgid "Mixed media, 2025"
-msgstr "ミクストメディア、2025年"
-
-#: app/templates/gallery.html:65 app/templates/gallery.html:66
-msgid "Featured work two"
-msgstr "注目作品2"
-
-#: app/templates/gallery.html:70
-msgid "Quiet Ground"
-msgstr "静かな大地"
-
-#: app/templates/gallery.html:71
-msgid "Ink and pigment, 2024"
-msgstr "インクと顔料、2024年"
-
-#: app/templates/gallery.html:77 app/templates/gallery.html:78
-msgid "Featured work three"
-msgstr "注目作品3"
-
-#: app/templates/gallery.html:82
-msgid "Light Between Leaves"
-msgstr "葉の間の光"
-
-#: app/templates/gallery.html:83
-msgid "Oil on canvas, 2026"
-msgstr "キャンバスに油彩、2026年"
-
-#: app/templates/gallery.html:89
-msgid "Live catalog data will appear here when painting records are connected."
-msgstr "絵画データが接続されると、ここにカタログ情報が表示されます。"
+#: app/templates/index.html:9
+msgid "Explore Gallery"
+msgstr "ギャラリーを見る"
 
 #: app/templates/painting.html:30
 msgid "View All Works"
 msgstr "すべての作品を見る"
+
+#: app/templates/submit.html:7
+msgid "Submit Your Artwork"
+msgstr "作品を投稿する"
+
+#: app/templates/submit.html:22
+msgid "Thank you! Your submission has been received. We will review it and get back to you."
+msgstr "ありがとうございます。投稿を受け付けました。内容を確認の上、後ほどご連絡いたします。"
+
+#: app/templates/submit.html:78
+msgid "Artwork Title *"
+msgstr "作品タイトル *"
+
+#: app/templates/submit.html:132
+msgid "Clear Form"
+msgstr "フォームをクリア"
+
+#: app/templates/submit.html:135
+msgid "Submit for Review"
+msgstr "審査に提出"
+
+#: app/templates/thank_you.html:7
+msgid "Thank You"
+msgstr "ありがとうございます"
+
+#: app/templates/thank_you.html:8
+msgid "Your enquiry has been received."
+msgstr "お問い合わせを受け付けました。"
+
+#: app/templates/thank_you.html:21
+msgid "We will be in touch soon"
+msgstr "近日中にご連絡いたします"
+
+#: app/templates/thank_you.html:25
+msgid "Back to Contact"
+msgstr "お問い合わせに戻る"
+``

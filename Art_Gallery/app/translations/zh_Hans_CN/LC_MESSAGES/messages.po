@@ -11,63 +11,239 @@ msgstr "作品"
 msgid "Back to Catalog"
 msgstr "返回目录"
 
+#: app/templates/base.html:10 app/templates/base.html:43
+msgid "Global Art Gallery"
+msgstr "全球艺术画廊"
+
 #: app/templates/base.html:40
 msgid "Experience Art Through Irish Perspective"
-msgstr "通过中国视角体验艺术"
+msgstr "从中国视角体验艺术"
+
+#: app/templates/base.html:54
+msgid "Art Gallery"
+msgstr "艺术画廊"
+
+#: app/templates/base.html:66
+msgid "Home"
+msgstr "首页"
 
 #: app/templates/base.html:70 app/templates/gallery.html:7
 msgid "Catalog"
 msgstr "目录"
 
-#: app/templates/gallery.html:8
-msgid "A curated selection from the gallery collection."
-msgstr "精选自画廊藏品的作品。"
+#: app/templates/base.html:73 app/templates/events.html:7
+msgid "Events"
+msgstr "活动"
 
-#: app/templates/gallery.html:28 app/templates/gallery.html:55
-#: app/templates/gallery.html:67 app/templates/gallery.html:79
-msgid "View Work"
-msgstr "查看作品"
+#: app/templates/base.html:76 app/templates/gallery.html:94
+msgid "Submit Your Art"
+msgstr "提交您的作品"
 
-#: app/templates/gallery.html:53 app/templates/gallery.html:54
-msgid "Featured work one"
-msgstr "精选作品一"
+#: app/templates/base.html:79 app/templates/contact.html:7
+msgid "Contact Us"
+msgstr "联系我们"
 
-#: app/templates/gallery.html:58
-msgid "Stillness in Branches"
-msgstr "枝间静谧"
+#: app/templates/base.html:86
+msgid ">Language"
+msgstr "语言"
 
-#: app/templates/gallery.html:59
-msgid "Mixed media, 2025"
-msgstr "混合媒介，2025年"
+#: app/templates/base.html:91
+msgid "English"
+msgstr "英文"
 
-#: app/templates/gallery.html:65 app/templates/gallery.html:66
-msgid "Featured work two"
-msgstr "精选作品二"
+#: app/templates/base.html:96
+msgid "中文"
+msgstr "中文"
 
-#: app/templates/gallery.html:70
-msgid "Quiet Ground"
-msgstr "静谧之地"
+#: app/templates/base.html:101
+msgid "日本語"
+msgstr "日语"
 
-#: app/templates/gallery.html:71
-msgid "Ink and pigment, 2024"
-msgstr "墨与颜料，2024年"
+#: app/templates/base.html:126
+msgid "© 2026 Global Art Gallery"
+msgstr "© 2026 全球艺术画廊"
 
-#: app/templates/gallery.html:77 app/templates/gallery.html:78
-msgid "Featured work three"
-msgstr "精选作品三"
+#: app/templates/contact.html:8
+msgid "Reach out with questions, partnership enquiries, artwork support requests, or media enquiries."
+msgstr "如有问题、合作咨询、作品提交支持或媒体咨询，请与我们联系。"
 
-#: app/templates/gallery.html:82
-msgid "Light Between Leaves"
-msgstr "叶间之光"
+#: app/templates/contact.html:21
+msgid "Name"
+msgstr "姓名"
 
-#: app/templates/gallery.html:83
-msgid "Oil on canvas, 2026"
-msgstr "布面油画，2026年"
+#: app/templates/contact.html:25
+msgid "Email"
+msgstr "电子邮箱"
 
-#: app/templates/gallery.html:89
-msgid "Live catalog data will appear here when painting records are connected."
-msgstr "连接绘画数据后，实时目录信息将在此显示。"
+#: app/templates/contact.html:29
+msgid "Reason for Contact"
+msgstr "联系原因"
 
-#: app/templates/painting.html:30
-msgid "View All Works"
-msgstr "查看所有作品"
+#: app/templates/contact.html:31
+msgid "Select a reason..."
+msgstr "请选择原因……"
+
+#: app/templates/contact.html:32
+msgid "General enquiry"
+msgstr "一般咨询"
+
+#: app/templates/contact.html:33
+msgid "Artwork submission support"
+msgstr "作品提交支持"
+
+#: app/templates/contact.html:34
+msgid "Partnership or collaboration"
+msgstr "合作或伙伴关系"
+
+#: app/templates/contact.html:35
+msgid "Press or media enquiry"
+msgstr "媒体咨询"
+
+#: app/templates/contact.html:36
+msgid "Events and exhibitions"
+msgstr "活动与展览"
+
+#: app/templates/contact.html:37
+msgid "Technical issue"
+msgstr "技术问题"
+
+#: app/templates/contact.html:38 app/templates/submit.html:94
+msgid "Other"
+msgstr "其他"
+
+#: app/templates/contact.html:42
+msgid "If Other, Please Specify"
+msgstr "如选择“其他”，请说明"
+
+#: app/templates/contact.html:44
+msgid "Add a short subject or purpose"
+msgstr "填写简短主题或目的"
+
+#: app/templates/contact.html:47
+msgid "Message"
+msgstr "留言"
+
+#: app/templates/contact.html:49
+msgid "Tell us how we can help..."
+msgstr "请告诉我们您需要什么帮助……"
+
+#: app/templates/contact.html:51
+msgid "Send"
+msgstr "发送"
+
+#: app/templates/contact.html:58
+msgid "Contact Information"
+msgstr "联系信息"
+
+#: app/templates/contact.html:59
+msgid "Hours of Operation:"
+msgstr "营业时间："
+
+#: app/templates/contact.html:59
+msgid "Monday to Friday, 9:00 AM to 5:30 PM"
+msgstr "周一至周五，上午9:00至下午5:30"
+
+#: app/templates/contact.html:60
+msgid "Expected Response Time:"
+msgstr "回复时间："
+
+#: app/templates/contact.html:60
+msgid "We aim to respond to calls and emails within 1 to 2 business days."
+msgstr "我们通常会在1至2个工作日内回复电话和邮件。"
+
+#: app/templates/contact.html:61
+msgid "Phone:"
+msgstr "电话："
+
+#: app/templates/contact.html:62
+msgid "Email:"
+msgstr "邮箱："
+
+#: app/templates/contact.html:68
+msgid "Social Media"
+msgstr "社交媒体"
+
+#: app/templates/contact.html:70
+msgid "Instagram"
+msgstr "Instagram"
+
+#: app/templates/contact.html:71
+msgid "Facebook"
+msgstr "Facebook"
+
+#: app/templates/contact.html:72
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: app/templates/contact.html:79
+msgid "Helpful Resources"
+msgstr "实用资源"
+
+#: app/templates/contact.html:80
+msgid "While you wait, these pages may answer common questions."
+msgstr "在等待回复期间，这些页面可能可以解答您的常见问题。"
+
+#: app/templates/contact.html:82 app/templates/thank_you.html:26
+msgid "View FAQs"
+msgstr "查看常见问题"
+
+#: app/templates/contact.html:83
+msgid "Artwork Submission Guide"
+msgstr "作品提交指南"
+
+#: app/templates/contact.html:84
+msgid "Current Exhibitions"
+msgstr "当前展览"
+
+#: app/templates/events.html:8
+msgid "Explore upcoming exhibitions, talks, and cultural programs."
+msgstr "探索即将举行的展览、讲座和文化项目。"
+
+#: app/templates/events.html:21
+msgid "Seasonal Exhibition"
+msgstr "季节性展览"
+
+#: app/templates/events.html:22 app/templates/events.html:31
+#: app/templates/events.html:40
+msgid "Date:"
+msgstr "日期："
+
+#: app/templates/events.html:22
+msgid "12 May 2026"
+msgstr "2026年5月12日"
+
+#: app/templates/events.html:23
+msgid "A curated showcase of contemporary works from featured artists."
+msgstr "精选当代艺术家的作品展。"
+
+#: app/templates/events.html:30
+msgid "Artist Talk"
+msgstr "艺术家讲座"
+
+#: app/templates/events.html:31
+msgid "26 May 2026"
+msgstr "2026年5月26日"
+
+#: app/templates/events.html:32
+msgid "Join an open discussion with guest artists about process and inspiration."
+msgstr "与特邀艺术家共同参与关于创作过程与灵感的开放讨论。"
+
+#: app/templates/events.html:39
+msgid "Community Workshop"
+msgstr "社区工作坊"
+
+#: app/templates/events.html:40
+msgid "9 June 2026"
+msgstr "2026年6月9日"
+
+#: app/templates/events.html:41
+msgid "Hands-on creative workshop open to students and local communities."
+msgstr "面向学生和本地社区的实践创意工作坊。"
+
+#: app/templates/faq.html:7
+msgid "Frequently Asked Questions"
+msgstr "常见问题"
+
+#: app/templates/faq.html:8
+msgid "Quick answers to common visitor, artist, and submission questions."
+msgstr "为访客、艺术家及投稿者提供常见问题解答。"
