@@ -32,7 +32,11 @@ msgid ""
 "edges, where she studies how weather changes the tone of a place. Aoife "
 "is drawn to the spaces between things: the pause before movement, the "
 "hollow under roots, and the thin light that settles after rain."
-msgstr "艾芙·墨菲出生于爱尔兰科克，她的综合媒介作品源自自然界中安静的细节。她将墨水、树皮纹理、压制的植物和手工纸结合在一起，创造出层叠的表面，给人一种收集而非刻意构图的感觉。她的创作始于在林间小路和海岸边漫步时填满的速写本，在那里她观察天气如何改变一个地方的色调。艾芙被事物之间的空间所吸引：动作前的停顿、根下的空洞，以及雨后渐渐沉淀的微光。"
+msgstr ""
+"艾芙·墨菲出生于爱尔兰科克，她的综合媒介作品源自自然界中安静的细节。"
+"她将墨水、树皮纹理、压制的植物和手工纸结合在一起，创造出层叠的表面，给人一种收集而非刻意构图的感觉。"
+"她的创作始于在林间小路和海岸边漫步时填满的速写本，在那里她观察天气如何改变一个地方的色调。"
+"艾芙被事物之间的空间所吸引：动作前的停顿、根下的空洞，以及雨后渐渐沉淀的微光。"
 
 #: artistdata.py:26
 msgid "A Kyoto‑based painter blending abstraction with calligraphic gesture."
@@ -47,7 +51,10 @@ msgid ""
 "aesthetics of wabi-sabi and yūgen. He enjoys making his thoughts visible "
 "through the process of painting, allowing for spontaneity and "
 "imperfection to guide the final composition."
-msgstr "佐藤健二1971年出生于日本京都。他的作品处于当代抽象与传统笔墨实践的交界处。他的绘画强调平衡、留白和节奏，描绘自然与记忆的体验，常借鉴侘寂与幽玄的美学。他享受通过绘画使思想可视化的过程，让自发性和不完美引导最终的构图。"
+msgstr ""
+"佐藤健二1971年出生于日本京都。他的作品处于当代抽象与传统笔墨实践的交界处。"
+"他的绘画强调平衡、留白和节奏，描绘自然与记忆的体验，常借鉴侘寂与幽玄的美学。"
+"他享受通过绘画使思想可视化的过程，让自发性和不完美引导最终的构图。"
 
 #: artistdata.py:38
 msgid "A Spanish painter working with light, pigment, and restrained colour."
@@ -63,7 +70,11 @@ msgid ""
 " more intimate and reflective. Lucía keeps her palette restrained so that"
 " slight shifts in warmth, shadow, and reflection carry the emotional "
 "weight of the piece."
-msgstr "露西亚·费尔南德斯出生于西班牙瓦伦西亚，专注于描绘室内、门槛以及静谧中不设防的瞬间。她以薄薄的油彩和颜料层层叠加，缓慢地构建色彩，使画面保留每一次调整的痕迹。她的构图常从记忆中的房间或一片午后的光线开始，然后走向更亲密、更具反思性的表达。露西亚将调色板保持克制，让温度、阴影和反射的微妙变化承载作品的情感重量。"
+msgstr ""
+"露西亚·费尔南德斯出生于西班牙瓦伦西亚，专注于描绘室内、门槛以及静谧中不设防的瞬间。"
+"她以薄薄的油彩和颜料层层叠加，缓慢地构建色彩，使画面保留每一次调整的痕迹。"
+"她的构图常从记忆中的房间或一片午后的光线开始，然后走向更亲密、更具反思性的表达。"
+"露西亚将调色板保持克制，让温度、阴影和反射的微妙变化承载作品的情感重量。"
 
 #: artistdata.py:52
 msgid ""
@@ -72,7 +83,6 @@ msgid ""
 msgstr "一位将水墨传统与当代风景记忆融合的中国画家。"
 
 #: artistdata.py:54
-#, fuzzy
 msgid ""
 "Mei Lin Zhang was born in Hangzhou, China, and works between traditional "
 "ink painting and contemporary mixed media. Her paintings often begin with"
@@ -80,9 +90,13 @@ msgid ""
 "then evolve into layered compositions that balance atmosphere and "
 "structure. She is interested in how memory changes the shape of a "
 "landscape, and how a single line can suggest both distance and intimacy. "
-"Mei Lin’s practice is grounded in patience, repetition, and close "
+"Mei Lin's practice is grounded in patience, repetition, and close "
 "attention to the surfaces where water, paper, and pigment meet."
-msgstr "张美林出生于中国杭州，游走于传统水墨画与当代综合媒介之间。她的绘画常始于在河畔、老园林和静谧石径边所做的田野笔记，然后演变为平衡氛围与结构的层叠构图。她对记忆如何改变风景的形态感兴趣，也关注一根线条如何同时暗示距离与亲密。美林的创作植根于耐心、重复，以及对水、纸、颜料交汇之表面的细致关注。"
+msgstr ""
+"张美林出生于中国杭州，游走于传统水墨画与当代综合媒介之间。"
+"她的绘画常始于在河畔、老园林和静谧石径边所做的田野笔记，然后演变为平衡氛围与结构的层叠构图。"
+"她对记忆如何改变风景的形态感兴趣，也关注一根线条如何同时暗示距离与亲密。"
+"美林的创作植根于耐心、重复，以及对水、纸、颜料交汇之表面的细致关注。"
 
 #: artistdata.py:70 templates/gallery.html:58
 msgid "Stillness in Branches"
@@ -373,7 +387,7 @@ msgstr "其他"
 
 #: templates/contact.html:42
 msgid "If Other, Please Specify"
-msgstr "如选择\"其他\"，请说明"
+msgstr "如选择"其他"，请说明"
 
 #: templates/contact.html:47
 msgid "Message"
@@ -414,22 +428,6 @@ msgstr "电话："
 #: templates/contact.html:62
 msgid "Email:"
 msgstr "邮箱："
-
-#: templates/contact.html:68
-msgid "Social Media"
-msgstr "社交媒体"
-
-#: templates/contact.html:70
-msgid "Instagram"
-msgstr "Instagram"
-
-#: templates/contact.html:71
-msgid "Facebook"
-msgstr "Facebook"
-
-#: templates/contact.html:72
-msgid "LinkedIn"
-msgstr "LinkedIn"
 
 #: templates/contact.html:79
 msgid "Helpful Resources"
@@ -819,4 +817,3 @@ msgstr "如果您的问题较紧急，您也可以在营业时间内通过电话
 #: templates/thank_you.html:25
 msgid "Back to Contact"
 msgstr "返回联系页面"
-
