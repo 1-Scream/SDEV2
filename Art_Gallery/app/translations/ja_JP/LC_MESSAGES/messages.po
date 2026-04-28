@@ -1,3 +1,21 @@
+# Translations template for PROJECT.
+# Copyright (C) 2026 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-04-28 12:38+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
 #: app/templates/artists.html:11 app/templates/gallery.html:38
 #: app/templates/gallery.html:40 app/templates/painting.html:25
 msgid "Artist"
@@ -64,7 +82,9 @@ msgid "© 2026 Global Art Gallery"
 msgstr "© 2026 グローバル・アート・ギャラリー"
 
 #: app/templates/contact.html:8
-msgid "Reach out with questions, partnership enquiries, artwork support requests, or media enquiries."
+msgid ""
+"Reach out with questions, partnership enquiries, artwork support "
+"requests, or media enquiries."
 msgstr "ご質問、提携に関するお問い合わせ、作品投稿サポート、またはメディア関連のお問い合わせがございましたらご連絡ください。"
 
 #: app/templates/contact.html:21
@@ -224,7 +244,9 @@ msgid "Submit Your Artwork"
 msgstr "作品を投稿する"
 
 #: app/templates/submit.html:22
-msgid "Thank you! Your submission has been received. We will review it and get back to you."
+msgid ""
+"Thank you! Your submission has been received. We will review it and get "
+"back to you."
 msgstr "ありがとうございます。投稿を受け付けました。内容を確認の上、後ほどご連絡いたします。"
 
 #: app/templates/submit.html:78
@@ -254,4 +276,4 @@ msgstr "近日中にご連絡いたします"
 #: app/templates/thank_you.html:25
 msgid "Back to Contact"
 msgstr "お問い合わせに戻る"
-``
+
