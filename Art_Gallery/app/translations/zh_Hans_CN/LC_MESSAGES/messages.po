@@ -1,4 +1,4 @@
-# Translations template for PROJECT.
+# Chinese (Simplified, China) translations for PROJECT.
 # Copyright (C) 2026 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
@@ -7,264 +7,852 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-04-28 12:38+0100\n"
+"POT-Creation-Date: 2026-04-28 12:58+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_Hans_CN\n"
+"Language-Team: zh_Hans_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.18.0\n"
 
-#: app/templates/artists.html:11 app/templates/gallery.html:38
-#: app/templates/gallery.html:40 app/templates/painting.html:25
-msgid "Artist"
-msgstr "艺术家"
+#: artistdata.py:12
+msgid "An Irish mixed‑media artist exploring stillness and organic form."
+msgstr ""
 
-#: app/templates/artists.html:17
-msgid "Works"
-msgstr "作品"
+#: artistdata.py:14
+msgid ""
+"Aoife Murphy was born in Cork, Ireland, and builds her mixed-media work "
+"from the quiet details of the natural world. She combines ink, bark "
+"textures, pressed foliage, and handmade paper to create layered surfaces "
+"that feel collected rather than composed. Her practice begins with "
+"sketchbooks filled during long walks through woodland paths and coastal "
+"edges, where she studies how weather changes the tone of a place. Aoife "
+"is drawn to the spaces between things: the pause before movement, the "
+"hollow under roots, and the thin light that settles after rain."
+msgstr ""
 
-#: app/templates/artists.html:31 app/templates/painting.html:34
-msgid "Back to Catalog"
-msgstr "返回目录"
+#: artistdata.py:26
+msgid "A Kyoto‑based painter blending abstraction with calligraphic gesture."
+msgstr ""
 
-#: app/templates/base.html:10 app/templates/base.html:43
-msgid "Global Art Gallery"
-msgstr "全球艺术画廊"
+#: artistdata.py:28
+msgid ""
+"Kenji Sato was born in 1971 in Kyoto, Japan. His work sits at the "
+"boundary between contemporary abstraction and traditional brush practice."
+" His paintings emphasize balance, negative space, and rhythm. Kenji "
+"paints his experiences of nature and memory, often drawing on the "
+"aesthetics of wabi-sabi and yūgen. He enjoys making his thoughts visible "
+"through the process of painting, allowing for spontaneity and "
+"imperfection to guide the final composition."
+msgstr ""
 
-#: app/templates/base.html:40
-msgid "Experience Art Through Irish Perspective"
-msgstr "从中国视角体验艺术"
+#: artistdata.py:38
+msgid "A Spanish painter working with light, pigment, and restrained colour."
+msgstr ""
 
-#: app/templates/base.html:54
-msgid "Art Gallery"
-msgstr "艺术画廊"
+#: artistdata.py:40
+msgid ""
+"Lucía Fernández was born in Valencia, Spain, and paints interiors, "
+"thresholds, and unguarded moments of stillness. She works with thin veils"
+" of oil and pigment, building colour slowly so that the surface holds the"
+" trace of every adjustment. Her compositions often begin from a "
+"remembered room or a patch of afternoon light, then move toward something"
+" more intimate and reflective. Lucía keeps her palette restrained so that"
+" slight shifts in warmth, shadow, and reflection carry the emotional "
+"weight of the piece."
+msgstr ""
 
-#: app/templates/base.html:66
-msgid "Home"
-msgstr "首页"
+#: artistdata.py:52
+msgid ""
+"A Chinese painter blending ink traditions with contemporary landscape "
+"memory."
+msgstr ""
 
-#: app/templates/base.html:70 app/templates/gallery.html:7
+#: artistdata.py:54
+msgid ""
+"Mei Lin Zhang was born in Hangzhou, China, and works between traditional "
+"ink painting and contemporary mixed media. Her paintings often begin with"
+" field notes taken beside rivers, old gardens, and quiet stone paths, "
+"then evolve into layered compositions that balance atmosphere and "
+"structure. She is interested in how memory changes the shape of a "
+"landscape, and how a single line can suggest both distance and intimacy. "
+"Mei Lin’s practice is grounded in patience, repetition, and close "
+"attention to the surfaces where water, paper, and pigment meet."
+msgstr ""
+
+#: artistdata.py:70 templates/gallery.html:58
+msgid "Stillness in Branches"
+msgstr "枝间静谧"
+
+#: artistdata.py:73
+#, fuzzy
+msgid "Ink and mixed media"
+msgstr "综合媒介"
+
+#: artistdata.py:76
+msgid ""
+"A quiet composition built from layered ink washes and brittle line work, "
+"suggesting suspended movement."
+msgstr ""
+
+#: artistdata.py:85
+#, fuzzy
+msgid "Quiet Root"
+msgstr "静谧之地"
+
+#: artistdata.py:88
+msgid "Ink on handmade paper"
+msgstr ""
+
+#: artistdata.py:91
+msgid "A minimal study of grounding forms and negative space."
+msgstr ""
+
+#: artistdata.py:99
+msgid "Fog Study"
+msgstr ""
+
+#: artistdata.py:102
+msgid "Ink wash"
+msgstr ""
+
+#: artistdata.py:105
+msgid "An atmospheric work exploring diffusion and edge softness."
+msgstr ""
+
+#: artistdata.py:113
+msgid "Moss Line"
+msgstr ""
+
+#: artistdata.py:116
+msgid "Ink, pigment, and collage on paper"
+msgstr ""
+
+#: artistdata.py:119
+msgid ""
+"A textured study of damp edges, with fragmented marks suggesting the slow"
+" spread of moss along stone and wood."
+msgstr ""
+
+#: artistdata.py:127
+msgid "Shadow Bark"
+msgstr ""
+
+#: artistdata.py:130
+msgid "Mixed media on handmade paper"
+msgstr ""
+
+#: artistdata.py:133
+msgid ""
+"Layered bark rubbings and ink washes create a dark, tactile surface "
+"shaped by shifting woodland shade."
+msgstr ""
+
+#: artistdata.py:141
+msgid "Silent River"
+msgstr ""
+
+#: artistdata.py:144
+msgid "Acrylic and sumi ink on canvas"
+msgstr ""
+
+#: artistdata.py:147
+msgid ""
+"Large gestural strokes echo the movement of water without direct "
+"representation."
+msgstr ""
+
+#: artistdata.py:155
+msgid "Ink Memory"
+msgstr ""
+
+#: artistdata.py:158
+#, fuzzy
+msgid "Ink on canvas"
+msgstr "布面油画，2026年"
+
+#: artistdata.py:161
+msgid "A meditative composition balancing repetition and interruption."
+msgstr ""
+
+#: artistdata.py:169
+msgid "Window After Rain"
+msgstr ""
+
+#: artistdata.py:172
+msgid "Oil on linen"
+msgstr ""
+
+#: artistdata.py:175
+msgid ""
+"Soft reflections and washed-out daylight capture the calm atmosphere of a"
+" room just after the storm clears."
+msgstr ""
+
+#: artistdata.py:183
+msgid "Soft Afternoon"
+msgstr ""
+
+#: artistdata.py:186
+#, fuzzy
+msgid "Oil on canvas"
+msgstr "布面油画，2026年"
+
+#: artistdata.py:189
+msgid "Muted tones capture the way daylight settles across an empty room."
+msgstr ""
+
+#: templates/art.html:5
+msgid "Title"
+msgstr ""
+
+#: templates/art.html:10 templates/base.html:70 templates/gallery.html:7
 msgid "Catalog"
 msgstr "目录"
 
-#: app/templates/base.html:73 app/templates/events.html:7
+#: templates/art.html:15
+msgid "Art Piece 1"
+msgstr ""
+
+#: templates/art.html:16 templates/art.html:24 templates/art.html:32
+msgid "Add details about this piece."
+msgstr ""
+
+#: templates/art.html:23
+msgid "Art Piece 2"
+msgstr ""
+
+#: templates/art.html:31
+msgid "Art Piece 3"
+msgstr ""
+
+#: templates/artists.html:11 templates/gallery.html:38
+#: templates/gallery.html:40 templates/painting.html:25
+msgid "Artist"
+msgstr "艺术家"
+
+#: templates/artists.html:17
+msgid "Works"
+msgstr "作品"
+
+#: templates/artists.html:31 templates/painting.html:34
+msgid "Back to Catalog"
+msgstr "返回目录"
+
+#: templates/base.html:8
+msgid "Global Art Gallery showcasing culture across borders"
+msgstr ""
+
+#: templates/base.html:10 templates/base.html:43
+msgid "Global Art Gallery"
+msgstr "全球艺术画廊"
+
+#: templates/base.html:40
+msgid "Experience Art Through Irish Perspective"
+msgstr "从中国视角体验艺术"
+
+#: templates/base.html:54
+msgid "Art Gallery"
+msgstr "艺术画廊"
+
+#: templates/base.html:66
+msgid "Home"
+msgstr "首页"
+
+#: templates/base.html:73 templates/events.html:2 templates/events.html:6
 msgid "Events"
 msgstr "活动"
 
-#: app/templates/base.html:76 app/templates/gallery.html:94
+#: templates/base.html:76 templates/gallery.html:94
 msgid "Submit Your Art"
 msgstr "提交您的作品"
 
-#: app/templates/base.html:79 app/templates/contact.html:7
+#: templates/base.html:79 templates/contact.html:7
 msgid "Contact Us"
 msgstr "联系我们"
 
-#: app/templates/base.html:86
+#: templates/base.html:86
 msgid ">Language"
 msgstr "语言"
 
-#: app/templates/base.html:91
+#: templates/base.html:91
 msgid "English"
 msgstr "英文"
 
-#: app/templates/base.html:96
+#: templates/base.html:96
 msgid "中文"
 msgstr "中文"
 
-#: app/templates/base.html:101
+#: templates/base.html:101
 msgid "日本語"
 msgstr "日语"
 
-#: app/templates/base.html:126
+#: templates/base.html:126
 msgid "© 2026 Global Art Gallery"
 msgstr "© 2026 全球艺术画廊"
 
-#: app/templates/contact.html:8
+#: templates/base.html:136
+msgid ""
+"Share your question in your own words. We will reply as clearly as "
+"possible."
+msgstr ""
+
+#: templates/base.html:137
+msgid "Use this form to present your work in your own voice."
+msgstr ""
+
+#: templates/base.html:138
+msgid "Please complete this field."
+msgstr ""
+
+#: templates/base.html:139
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: templates/base.html:140 templates/contact.html:44
+msgid "Add a short subject or purpose"
+msgstr "填写简短主题或目的"
+
+#: templates/base.html:141
+msgid "Send this message now?"
+msgstr ""
+
+#: templates/base.html:142
+#, fuzzy
+msgid "Submit your artwork for review now?"
+msgstr "提交您的作品"
+
+#: templates/contact.html:8
 msgid ""
 "Reach out with questions, partnership enquiries, artwork support "
 "requests, or media enquiries."
 msgstr "如有问题、合作咨询、作品提交支持或媒体咨询，请与我们联系。"
 
-#: app/templates/contact.html:21
+#: templates/contact.html:21
 msgid "Name"
 msgstr "姓名"
 
-#: app/templates/contact.html:25
+#: templates/contact.html:25
 msgid "Email"
 msgstr "电子邮箱"
 
-#: app/templates/contact.html:29
+#: templates/contact.html:29
 msgid "Reason for Contact"
 msgstr "联系原因"
 
-#: app/templates/contact.html:31
+#: templates/contact.html:31
 msgid "Select a reason..."
 msgstr "请选择原因……"
 
-#: app/templates/contact.html:32
+#: templates/contact.html:32
 msgid "General enquiry"
 msgstr "一般咨询"
 
-#: app/templates/contact.html:33
+#: templates/contact.html:33
 msgid "Artwork submission support"
 msgstr "作品提交支持"
 
-#: app/templates/contact.html:34
+#: templates/contact.html:34
 msgid "Partnership or collaboration"
 msgstr "合作或伙伴关系"
 
-#: app/templates/contact.html:35
+#: templates/contact.html:35
 msgid "Press or media enquiry"
 msgstr "媒体咨询"
 
-#: app/templates/contact.html:36
+#: templates/contact.html:36
 msgid "Events and exhibitions"
 msgstr "活动与展览"
 
-#: app/templates/contact.html:37
+#: templates/contact.html:37
 msgid "Technical issue"
 msgstr "技术问题"
 
-#: app/templates/contact.html:38 app/templates/submit.html:94
+#: templates/contact.html:38 templates/submit.html:94
 msgid "Other"
 msgstr "其他"
 
-#: app/templates/contact.html:42
+#: templates/contact.html:42
 msgid "If Other, Please Specify"
 msgstr "如选择“其他”，请说明"
 
-#: app/templates/contact.html:44
-msgid "Add a short subject or purpose"
-msgstr "填写简短主题或目的"
-
-#: app/templates/contact.html:47
+#: templates/contact.html:47
 msgid "Message"
 msgstr "留言"
 
-#: app/templates/contact.html:49
+#: templates/contact.html:49
 msgid "Tell us how we can help..."
 msgstr "请告诉我们您需要什么帮助……"
 
-#: app/templates/contact.html:51
+#: templates/contact.html:51
 msgid "Send"
 msgstr "发送"
 
-#: app/templates/contact.html:58
+#: templates/contact.html:58
 msgid "Contact Information"
 msgstr "联系信息"
 
-#: app/templates/contact.html:59
+#: templates/contact.html:59
 msgid "Hours of Operation:"
 msgstr "营业时间："
 
-#: app/templates/contact.html:59
+#: templates/contact.html:59
 msgid "Monday to Friday, 9:00 AM to 5:30 PM"
 msgstr "周一至周五，上午9:00至下午5:30"
 
-#: app/templates/contact.html:60
+#: templates/contact.html:60
 msgid "Expected Response Time:"
 msgstr "回复时间："
 
-#: app/templates/contact.html:60
+#: templates/contact.html:60
 msgid "We aim to respond to calls and emails within 1 to 2 business days."
 msgstr "我们通常会在1至2个工作日内回复电话和邮件。"
 
-#: app/templates/contact.html:61
+#: templates/contact.html:61
 msgid "Phone:"
 msgstr "电话："
 
-#: app/templates/contact.html:62
+#: templates/contact.html:62
 msgid "Email:"
 msgstr "邮箱："
 
-#: app/templates/contact.html:68
+#: templates/contact.html:68
 msgid "Social Media"
 msgstr "社交媒体"
 
-#: app/templates/contact.html:70
+#: templates/contact.html:70
 msgid "Instagram"
 msgstr "Instagram"
 
-#: app/templates/contact.html:71
+#: templates/contact.html:71
 msgid "Facebook"
 msgstr "Facebook"
 
-#: app/templates/contact.html:72
+#: templates/contact.html:72
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
-#: app/templates/contact.html:79
+#: templates/contact.html:79
 msgid "Helpful Resources"
 msgstr "实用资源"
 
-#: app/templates/contact.html:80
+#: templates/contact.html:80
 msgid "While you wait, these pages may answer common questions."
 msgstr "在等待回复期间，这些页面可能可以解答您的常见问题。"
 
-#: app/templates/contact.html:82 app/templates/thank_you.html:26
+#: templates/contact.html:82 templates/thank_you.html:26
 msgid "View FAQs"
 msgstr "查看常见问题"
 
-#: app/templates/contact.html:83
+#: templates/contact.html:83
 msgid "Artwork Submission Guide"
 msgstr "作品提交指南"
 
-#: app/templates/contact.html:84
+#: templates/contact.html:84
 msgid "Current Exhibitions"
 msgstr "当前展览"
 
-#: app/templates/events.html:8
-msgid "Explore upcoming exhibitions, talks, and cultural programs."
-msgstr "探索即将举行的展览、讲座和文化项目。"
+#: templates/events.html:7
+msgid "Auctions, talks & open studios"
+msgstr ""
 
-#: app/templates/events.html:21
-msgid "Seasonal Exhibition"
-msgstr "季节性展览"
+#: templates/events.html:13
+msgid "Next Auction"
+msgstr ""
 
-#: app/templates/events.html:22 app/templates/events.html:31
-#: app/templates/events.html:40
-msgid "Date:"
-msgstr "日期："
+#: templates/events.html:21
+msgid "Spring Auction"
+msgstr ""
 
-#: app/templates/events.html:22
-msgid "12 May 2026"
-msgstr "2026年5月12日"
+#: templates/events.html:22
+msgid "Gallery, Main Hall"
+msgstr ""
 
-#: app/templates/events.html:23
-msgid "A curated showcase of contemporary works from featured artists."
-msgstr "精选当代艺术家的作品展。"
+#: templates/events.html:24
+msgid ""
+"Our spring auction features selected works from the permanent collection "
+"alongside new submissions from emerging artists."
+msgstr ""
 
-#: app/templates/events.html:30
-msgid "Artist Talk"
+#: templates/events.html:36
+#, fuzzy
+msgid "Artist Talk: Kenji Sato"
 msgstr "艺术家讲座"
 
-#: app/templates/events.html:31
-msgid "26 May 2026"
-msgstr "2026年5月26日"
+#: templates/events.html:37
+msgid "Gallery, Reading Room"
+msgstr ""
 
-#: app/templates/events.html:32
-msgid "Join an open discussion with guest artists about process and inspiration."
-msgstr "与特邀艺术家共同参与关于创作过程与灵感的开放讨论。"
+#: templates/events.html:39
+msgid ""
+"Join Kenji Sato for an intimate conversation about memory, language, and "
+"abstract expressionism."
+msgstr ""
 
-#: app/templates/events.html:39
-msgid "Community Workshop"
+#: templates/events.html:51
+msgid "Open Studio Weekend"
+msgstr ""
+
+#: templates/events.html:52
+msgid "Gallery, All Floors"
+msgstr ""
+
+#: templates/events.html:54
+msgid ""
+"The gallery opens all studio spaces to the public with free admission. "
+"Artists will be present throughout the weekend."
+msgstr ""
+
+#: templates/events.html:66
+#, fuzzy
+msgid "Community Print Workshop"
 msgstr "社区工作坊"
 
-#: app/templates/events.html:40
-msgid "9 June 2026"
-msgstr "2026年6月9日"
+#: templates/events.html:67
+msgid "Gallery, Education Studio"
+msgstr ""
 
-#: app/templates/events.html:41
-msgid "Hands-on creative workshop open to students and local communities."
+#: templates/events.html:69
+#, fuzzy
+msgid ""
+"A hands‑on workshop exploring basic printmaking techniques. Open to "
+"students and local community members."
 msgstr "面向学生和本地社区的实践创意工作坊。"
 
-#: app/templates/faq.html:7
+#: templates/faq.html:7
 msgid "Frequently Asked Questions"
 msgstr "常见问题"
 
-#: app/templates/faq.html:8
+#: templates/faq.html:8
 msgid "Quick answers to common visitor, artist, and submission questions."
 msgstr "为访客、艺术家及投稿者提供常见问题解答。"
+
+#: templates/faq.html:23
+msgid "How long does it take to receive a reply?"
+msgstr "收到回复需要多久？"
+
+#: templates/faq.html:28
+msgid ""
+"We usually respond within 1 to 2 business days. Messages sent outside "
+"office hours are handled on the next working day."
+msgstr "我们通常会在1至2个工作日内回复。非办公时间发送的消息将在下一个工作日处理。"
+
+#: templates/faq.html:35
+msgid "What should I include in an artwork submission?"
+msgstr "提交作品时应包含哪些内容？"
+
+#: templates/faq.html:40
+msgid ""
+"Please include your contact details, artwork title, medium, year, "
+"description, and at least one clear image. A portfolio and CV/resume can "
+"also be attached."
+msgstr "请提供您的联系方式、作品标题、媒介、创作年份、描述，以及至少一张清晰图片。还可以附上作品集和个人简历。"
+
+#: templates/faq.html:47
+msgid "Can I contact the gallery about partnerships or events?"
+msgstr "我可以联系画廊洽谈合作或活动吗？"
+
+#: templates/faq.html:52
+msgid ""
+"Yes. Choose the partnership, collaboration, or events option in the "
+"contact form and include the relevant dates, audience, and proposal "
+"details."
+msgstr "可以。在联系表单中选择合作或活动选项，并提供相关日期、受众和方案细节。"
+
+#: templates/faq.html:59
+msgid "Contact the Team"
+msgstr "联系团队"
+
+#: templates/gallery.html:8
+msgid "A curated selection from the gallery collection."
+msgstr "精选画廊收藏作品。"
+
+#: templates/gallery.html:28 templates/gallery.html:55
+#: templates/gallery.html:67 templates/gallery.html:79
+msgid "View Work"
+msgstr "查看作品"
+
+#: templates/gallery.html:32
+msgid "Mixed media"
+msgstr "综合媒介"
+
+#: templates/gallery.html:53 templates/gallery.html:54
+msgid "Featured work one"
+msgstr "特色作品一"
+
+#: templates/gallery.html:59
+msgid "Mixed media, 2025"
+msgstr "综合媒介，2025年"
+
+#: templates/gallery.html:65 templates/gallery.html:66
+msgid "Featured work two"
+msgstr "特色作品二"
+
+#: templates/gallery.html:70
+msgid "Quiet Ground"
+msgstr "静谧之地"
+
+#: templates/gallery.html:71
+msgid "Ink and pigment, 2024"
+msgstr "水墨与颜料，2024年"
+
+#: templates/gallery.html:77 templates/gallery.html:78
+msgid "Featured work three"
+msgstr "特色作品三"
+
+#: templates/gallery.html:82
+msgid "Light Between Leaves"
+msgstr "叶间光影"
+
+#: templates/gallery.html:83
+msgid "Oil on canvas, 2026"
+msgstr "布面油画，2026年"
+
+#: templates/gallery.html:89
+msgid "Live catalog data will appear here when painting records are connected."
+msgstr "连接绘画数据后，此处将显示实时目录内容。"
+
+#: templates/index.html:7
+msgid "Welcome to the Global Art Gallery"
+msgstr "欢迎来到全球艺术画廊"
+
+#: templates/index.html:8
+msgid "Celebrating art and culture from around the world."
+msgstr "呈现来自世界各地的艺术与文化。"
+
+#: templates/index.html:9
+msgid "Explore Gallery"
+msgstr "浏览画廊"
+
+#: templates/index.html:18
+msgid "Featured Preview"
+msgstr "精选预览"
+
+#: templates/index.html:21
+#, fuzzy
+msgid "Tree artwork 1"
+msgstr "提交您的作品"
+
+#: templates/index.html:22
+msgid "Brief description of the first image goes here."
+msgstr "第一张图像的简要描述在此。"
+
+#: templates/index.html:26
+#, fuzzy
+msgid "Tree artwork 2"
+msgstr "提交您的作品"
+
+#: templates/index.html:27
+msgid "Brief description of the second image goes here."
+msgstr "第二张图像的简要描述在此。"
+
+#: templates/index.html:31
+#, fuzzy
+msgid "Tree artwork 3"
+msgstr "提交您的作品"
+
+#: templates/index.html:32
+msgid "Brief description of the third image goes here."
+msgstr "第三张图像的简要描述在此。"
+
+#: templates/painting.html:30
+msgid "View All Works"
+msgstr "查看所有作品"
+
+#: templates/submit.html:7
+msgid "Submit Your Artwork"
+msgstr "提交您的作品"
+
+#: templates/submit.html:8
+msgid ""
+"Fill in the form below. Our team will review your submission and be in "
+"touch."
+msgstr "请填写下列表单。我们的团队将审核您的投稿，并与您联系。"
+
+#: templates/submit.html:22
+msgid ""
+"Thank you! Your submission has been received. We will review it and get "
+"back to you."
+msgstr "感谢您！您的投稿已收到。我们会进行审核并与您联系。"
+
+#: templates/submit.html:33
+msgid "Artist Information"
+msgstr "艺术家信息"
+
+#: templates/submit.html:37
+msgid "Full Name *"
+msgstr "姓名 *"
+
+#: templates/submit.html:41
+msgid "Email Address *"
+msgstr "电子邮箱 *"
+
+#: templates/submit.html:47
+msgid "Phone Number"
+msgstr "电话号码"
+
+#: templates/submit.html:49
+msgid "Enter your contact number"
+msgstr "输入您的联系电话"
+
+#: templates/submit.html:53
+msgid "Artist Statement"
+msgstr "艺术家陈述"
+
+#: templates/submit.html:55
+msgid "Tell us about yourself and your artistic background..."
+msgstr "请介绍您自己及您的艺术背景……"
+
+#: templates/submit.html:59
+msgid "Artist Portfolio"
+msgstr "艺术作品集"
+
+#: templates/submit.html:62
+msgid ""
+"Optional — upload a PDF, ZIP, or image file of your portfolio. Max size: "
+"20MB."
+msgstr "可选——上传您的作品集（PDF、ZIP或图片格式）。最大20MB。"
+
+#: templates/submit.html:66
+msgid "Artist CV / Resume"
+msgstr "艺术家简历"
+
+#: templates/submit.html:69
+msgid "Optional — upload your CV or resume in PDF or Word format. Max size: 10MB."
+msgstr "可选——上传PDF或Word格式的简历。最大10MB。"
+
+#: templates/submit.html:75
+msgid "Artwork Details"
+msgstr "作品信息"
+
+#: templates/submit.html:78
+msgid "Artwork Title *"
+msgstr "作品标题 *"
+
+#: templates/submit.html:84
+msgid "Medium / Type *"
+msgstr "媒介 / 类型 *"
+
+#: templates/submit.html:86
+msgid "Select a medium..."
+msgstr "请选择媒介……"
+
+#: templates/submit.html:87
+msgid "Painting"
+msgstr "绘画"
+
+#: templates/submit.html:88
+msgid "Sculpture"
+msgstr "雕塑"
+
+#: templates/submit.html:89
+msgid "Photography"
+msgstr "摄影"
+
+#: templates/submit.html:90
+msgid "Digital Art"
+msgstr "数字艺术"
+
+#: templates/submit.html:91
+msgid "Printmaking"
+msgstr "版画"
+
+#: templates/submit.html:92
+msgid "Textile / Fibre"
+msgstr "纺织 / 纤维艺术"
+
+#: templates/submit.html:93
+msgid "Mixed Media"
+msgstr "综合媒介"
+
+#: templates/submit.html:98
+msgid "Year Created *"
+msgstr "创作年份 *"
+
+#: templates/submit.html:105
+msgid "Description / Concept *"
+msgstr "描述 / 概念 *"
+
+#: templates/submit.html:107
+msgid "Describe the artwork, its inspiration, and meaning..."
+msgstr "描述作品、灵感及其含义……"
+
+#: templates/submit.html:112
+msgid "Upload Artwork Image *"
+msgstr "上传作品图片 *"
+
+#: templates/submit.html:115
+msgid "Accepted formats: JPG, PNG, WEBP. Max size: 10MB."
+msgstr "支持格式：JPG、PNG、WEBP。最大10MB。"
+
+#: templates/submit.html:125
+msgid ""
+"I confirm that this is my original work and I consent to the gallery "
+"reviewing it for potential display. *"
+msgstr "我确认这是我的原创作品，并同意画廊进行审核用于可能的展示。*"
+
+#: templates/submit.html:132
+msgid "Clear Form"
+msgstr "清空表单"
+
+#: templates/submit.html:135
+msgid "Submit for Review"
+msgstr "提交审核"
+
+#: templates/thank_you.html:7
+msgid "Thank You"
+msgstr "谢谢"
+
+#: templates/thank_you.html:8
+msgid "Your enquiry has been received."
+msgstr "您的咨询已收到。"
+
+#: templates/thank_you.html:21
+msgid "We will be in touch soon"
+msgstr "我们会尽快与您联系"
+
+#: templates/thank_you.html:22
+msgid ""
+"Thank you for contacting Global Art Gallery. Our team reviews enquiries "
+"during business hours and usually replies within 1 to 2 business days."
+msgstr "感谢您联系全球艺术画廊。我们的团队会在营业时间内处理咨询，通常会在1至2个工作日内回复。"
+
+#: templates/thank_you.html:23
+msgid ""
+"If your question is urgent, you can also contact us by phone during our "
+"office hours or use the resources below."
+msgstr "如果您的问题较紧急，您也可以在营业时间内通过电话联系我们，或使用以下资源。"
+
+#: templates/thank_you.html:25
+msgid "Back to Contact"
+msgstr "返回联系页面"
+
+#~ msgid "Explore upcoming exhibitions, talks, and cultural programs."
+#~ msgstr "探索即将举行的展览、讲座和文化项目。"
+
+#~ msgid "Seasonal Exhibition"
+#~ msgstr "季节性展览"
+
+#~ msgid "Date:"
+#~ msgstr "日期："
+
+#~ msgid "12 May 2026"
+#~ msgstr "2026年5月12日"
+
+#~ msgid "A curated showcase of contemporary works from featured artists."
+#~ msgstr "精选当代艺术家的作品展。"
+
+#~ msgid "26 May 2026"
+#~ msgstr "2026年5月26日"
+
+#~ msgid ""
+#~ "Join an open discussion with guest "
+#~ "artists about process and inspiration."
+#~ msgstr "与特邀艺术家共同参与关于创作过程与灵感的开放讨论。"
+
+#~ msgid "9 June 2026"
+#~ msgstr "2026年6月9日"
 

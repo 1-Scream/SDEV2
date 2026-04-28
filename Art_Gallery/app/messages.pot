@@ -3,11 +3,12 @@
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-04-27 21:27+0100\n"
+"POT-Creation-Date: 2026-04-28 12:58+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,544 +17,804 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.18.0\n"
 
-#: app/templates/artists.html:11 app/templates/gallery.html:38
-#: app/templates/gallery.html:40 app/templates/painting.html:25
-msgid "Artist"
+#: artistdata.py:12
+msgid "An Irish mixed‑media artist exploring stillness and organic form."
 msgstr ""
 
-#: app/templates/artists.html:17
-msgid "Works"
+#: artistdata.py:14
+msgid ""
+"Aoife Murphy was born in Cork, Ireland, and builds her mixed-media work "
+"from the quiet details of the natural world. She combines ink, bark "
+"textures, pressed foliage, and handmade paper to create layered surfaces "
+"that feel collected rather than composed. Her practice begins with "
+"sketchbooks filled during long walks through woodland paths and coastal "
+"edges, where she studies how weather changes the tone of a place. Aoife "
+"is drawn to the spaces between things: the pause before movement, the "
+"hollow under roots, and the thin light that settles after rain."
 msgstr ""
 
-#: app/templates/artists.html:31 app/templates/painting.html:34
-msgid "Back to Catalog"
+#: artistdata.py:26
+msgid "A Kyoto‑based painter blending abstraction with calligraphic gesture."
 msgstr ""
 
-#: app/templates/base.html:10 app/templates/base.html:43
-msgid "Global Art Gallery"
+#: artistdata.py:28
+msgid ""
+"Kenji Sato was born in 1971 in Kyoto, Japan. His work sits at the "
+"boundary between contemporary abstraction and traditional brush practice."
+" His paintings emphasize balance, negative space, and rhythm. Kenji "
+"paints his experiences of nature and memory, often drawing on the "
+"aesthetics of wabi-sabi and yūgen. He enjoys making his thoughts visible "
+"through the process of painting, allowing for spontaneity and "
+"imperfection to guide the final composition."
 msgstr ""
 
-#: app/templates/base.html:40
-msgid "Experience Art Through Irish Perspective"
+#: artistdata.py:38
+msgid "A Spanish painter working with light, pigment, and restrained colour."
 msgstr ""
 
-#: app/templates/base.html:54
-msgid "Art Gallery"
+#: artistdata.py:40
+msgid ""
+"Lucía Fernández was born in Valencia, Spain, and paints interiors, "
+"thresholds, and unguarded moments of stillness. She works with thin veils"
+" of oil and pigment, building colour slowly so that the surface holds the"
+" trace of every adjustment. Her compositions often begin from a "
+"remembered room or a patch of afternoon light, then move toward something"
+" more intimate and reflective. Lucía keeps her palette restrained so that"
+" slight shifts in warmth, shadow, and reflection carry the emotional "
+"weight of the piece."
 msgstr ""
 
-#: app/templates/base.html:66
-msgid "Home"
+#: artistdata.py:52
+msgid ""
+"A Chinese painter blending ink traditions with contemporary landscape "
+"memory."
 msgstr ""
 
-#: app/templates/base.html:70 app/templates/gallery.html:7
+#: artistdata.py:54
+msgid ""
+"Mei Lin Zhang was born in Hangzhou, China, and works between traditional "
+"ink painting and contemporary mixed media. Her paintings often begin with"
+" field notes taken beside rivers, old gardens, and quiet stone paths, "
+"then evolve into layered compositions that balance atmosphere and "
+"structure. She is interested in how memory changes the shape of a "
+"landscape, and how a single line can suggest both distance and intimacy. "
+"Mei Lin’s practice is grounded in patience, repetition, and close "
+"attention to the surfaces where water, paper, and pigment meet."
+msgstr ""
+
+#: artistdata.py:70 templates/gallery.html:58
+msgid "Stillness in Branches"
+msgstr ""
+
+#: artistdata.py:73
+msgid "Ink and mixed media"
+msgstr ""
+
+#: artistdata.py:76
+msgid ""
+"A quiet composition built from layered ink washes and brittle line work, "
+"suggesting suspended movement."
+msgstr ""
+
+#: artistdata.py:85
+msgid "Quiet Root"
+msgstr ""
+
+#: artistdata.py:88
+msgid "Ink on handmade paper"
+msgstr ""
+
+#: artistdata.py:91
+msgid "A minimal study of grounding forms and negative space."
+msgstr ""
+
+#: artistdata.py:99
+msgid "Fog Study"
+msgstr ""
+
+#: artistdata.py:102
+msgid "Ink wash"
+msgstr ""
+
+#: artistdata.py:105
+msgid "An atmospheric work exploring diffusion and edge softness."
+msgstr ""
+
+#: artistdata.py:113
+msgid "Moss Line"
+msgstr ""
+
+#: artistdata.py:116
+msgid "Ink, pigment, and collage on paper"
+msgstr ""
+
+#: artistdata.py:119
+msgid ""
+"A textured study of damp edges, with fragmented marks suggesting the slow"
+" spread of moss along stone and wood."
+msgstr ""
+
+#: artistdata.py:127
+msgid "Shadow Bark"
+msgstr ""
+
+#: artistdata.py:130
+msgid "Mixed media on handmade paper"
+msgstr ""
+
+#: artistdata.py:133
+msgid ""
+"Layered bark rubbings and ink washes create a dark, tactile surface "
+"shaped by shifting woodland shade."
+msgstr ""
+
+#: artistdata.py:141
+msgid "Silent River"
+msgstr ""
+
+#: artistdata.py:144
+msgid "Acrylic and sumi ink on canvas"
+msgstr ""
+
+#: artistdata.py:147
+msgid ""
+"Large gestural strokes echo the movement of water without direct "
+"representation."
+msgstr ""
+
+#: artistdata.py:155
+msgid "Ink Memory"
+msgstr ""
+
+#: artistdata.py:158
+msgid "Ink on canvas"
+msgstr ""
+
+#: artistdata.py:161
+msgid "A meditative composition balancing repetition and interruption."
+msgstr ""
+
+#: artistdata.py:169
+msgid "Window After Rain"
+msgstr ""
+
+#: artistdata.py:172
+msgid "Oil on linen"
+msgstr ""
+
+#: artistdata.py:175
+msgid ""
+"Soft reflections and washed-out daylight capture the calm atmosphere of a"
+" room just after the storm clears."
+msgstr ""
+
+#: artistdata.py:183
+msgid "Soft Afternoon"
+msgstr ""
+
+#: artistdata.py:186
+msgid "Oil on canvas"
+msgstr ""
+
+#: artistdata.py:189
+msgid "Muted tones capture the way daylight settles across an empty room."
+msgstr ""
+
+#: templates/art.html:5
+msgid "Title"
+msgstr ""
+
+#: templates/art.html:10 templates/base.html:70 templates/gallery.html:7
 msgid "Catalog"
 msgstr ""
 
-#: app/templates/base.html:73 app/templates/events.html:7
+#: templates/art.html:15
+msgid "Art Piece 1"
+msgstr ""
+
+#: templates/art.html:16 templates/art.html:24 templates/art.html:32
+msgid "Add details about this piece."
+msgstr ""
+
+#: templates/art.html:23
+msgid "Art Piece 2"
+msgstr ""
+
+#: templates/art.html:31
+msgid "Art Piece 3"
+msgstr ""
+
+#: templates/artists.html:11 templates/gallery.html:38
+#: templates/gallery.html:40 templates/painting.html:25
+msgid "Artist"
+msgstr ""
+
+#: templates/artists.html:17
+msgid "Works"
+msgstr ""
+
+#: templates/artists.html:31 templates/painting.html:34
+msgid "Back to Catalog"
+msgstr ""
+
+#: templates/base.html:8
+msgid "Global Art Gallery showcasing culture across borders"
+msgstr ""
+
+#: templates/base.html:10 templates/base.html:43
+msgid "Global Art Gallery"
+msgstr ""
+
+#: templates/base.html:40
+msgid "Experience Art Through Irish Perspective"
+msgstr ""
+
+#: templates/base.html:54
+msgid "Art Gallery"
+msgstr ""
+
+#: templates/base.html:66
+msgid "Home"
+msgstr ""
+
+#: templates/base.html:73 templates/events.html:2 templates/events.html:6
 msgid "Events"
 msgstr ""
 
-#: app/templates/base.html:76 app/templates/gallery.html:94
+#: templates/base.html:76 templates/gallery.html:94
 msgid "Submit Your Art"
 msgstr ""
 
-#: app/templates/base.html:79 app/templates/contact.html:7
+#: templates/base.html:79 templates/contact.html:7
 msgid "Contact Us"
 msgstr ""
 
-#: app/templates/base.html:86
+#: templates/base.html:86
 msgid ">Language"
 msgstr ""
 
-#: app/templates/base.html:91
+#: templates/base.html:91
 msgid "English"
 msgstr ""
 
-#: app/templates/base.html:96
+#: templates/base.html:96
 msgid "中文"
 msgstr ""
 
-#: app/templates/base.html:101
+#: templates/base.html:101
 msgid "日本語"
 msgstr ""
 
-#: app/templates/base.html:126
+#: templates/base.html:126
 msgid "© 2026 Global Art Gallery"
 msgstr ""
 
-#: app/templates/contact.html:8
+#: templates/base.html:136
+msgid ""
+"Share your question in your own words. We will reply as clearly as "
+"possible."
+msgstr ""
+
+#: templates/base.html:137
+msgid "Use this form to present your work in your own voice."
+msgstr ""
+
+#: templates/base.html:138
+msgid "Please complete this field."
+msgstr ""
+
+#: templates/base.html:139
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: templates/base.html:140 templates/contact.html:44
+msgid "Add a short subject or purpose"
+msgstr ""
+
+#: templates/base.html:141
+msgid "Send this message now?"
+msgstr ""
+
+#: templates/base.html:142
+msgid "Submit your artwork for review now?"
+msgstr ""
+
+#: templates/contact.html:8
 msgid ""
 "Reach out with questions, partnership enquiries, artwork support "
 "requests, or media enquiries."
 msgstr ""
 
-#: app/templates/contact.html:21
+#: templates/contact.html:21
 msgid "Name"
 msgstr ""
 
-#: app/templates/contact.html:25
+#: templates/contact.html:25
 msgid "Email"
 msgstr ""
 
-#: app/templates/contact.html:29
+#: templates/contact.html:29
 msgid "Reason for Contact"
 msgstr ""
 
-#: app/templates/contact.html:31
+#: templates/contact.html:31
 msgid "Select a reason..."
 msgstr ""
 
-#: app/templates/contact.html:32
+#: templates/contact.html:32
 msgid "General enquiry"
 msgstr ""
 
-#: app/templates/contact.html:33
+#: templates/contact.html:33
 msgid "Artwork submission support"
 msgstr ""
 
-#: app/templates/contact.html:34
+#: templates/contact.html:34
 msgid "Partnership or collaboration"
 msgstr ""
 
-#: app/templates/contact.html:35
+#: templates/contact.html:35
 msgid "Press or media enquiry"
 msgstr ""
 
-#: app/templates/contact.html:36
+#: templates/contact.html:36
 msgid "Events and exhibitions"
 msgstr ""
 
-#: app/templates/contact.html:37
+#: templates/contact.html:37
 msgid "Technical issue"
 msgstr ""
 
-#: app/templates/contact.html:38 app/templates/submit.html:94
+#: templates/contact.html:38 templates/submit.html:94
 msgid "Other"
 msgstr ""
 
-#: app/templates/contact.html:42
+#: templates/contact.html:42
 msgid "If Other, Please Specify"
 msgstr ""
 
-#: app/templates/contact.html:44
-msgid "Add a short subject or purpose"
-msgstr ""
-
-#: app/templates/contact.html:47
+#: templates/contact.html:47
 msgid "Message"
 msgstr ""
 
-#: app/templates/contact.html:49
+#: templates/contact.html:49
 msgid "Tell us how we can help..."
 msgstr ""
 
-#: app/templates/contact.html:51
+#: templates/contact.html:51
 msgid "Send"
 msgstr ""
 
-#: app/templates/contact.html:58
+#: templates/contact.html:58
 msgid "Contact Information"
 msgstr ""
 
-#: app/templates/contact.html:59
+#: templates/contact.html:59
 msgid "Hours of Operation:"
 msgstr ""
 
-#: app/templates/contact.html:59
+#: templates/contact.html:59
 msgid "Monday to Friday, 9:00 AM to 5:30 PM"
 msgstr ""
 
-#: app/templates/contact.html:60
+#: templates/contact.html:60
 msgid "Expected Response Time:"
 msgstr ""
 
-#: app/templates/contact.html:60
+#: templates/contact.html:60
 msgid "We aim to respond to calls and emails within 1 to 2 business days."
 msgstr ""
 
-#: app/templates/contact.html:61
+#: templates/contact.html:61
 msgid "Phone:"
 msgstr ""
 
-#: app/templates/contact.html:62
+#: templates/contact.html:62
 msgid "Email:"
 msgstr ""
 
-#: app/templates/contact.html:68
+#: templates/contact.html:68
 msgid "Social Media"
 msgstr ""
 
-#: app/templates/contact.html:70
+#: templates/contact.html:70
 msgid "Instagram"
 msgstr ""
 
-#: app/templates/contact.html:71
+#: templates/contact.html:71
 msgid "Facebook"
 msgstr ""
 
-#: app/templates/contact.html:72
+#: templates/contact.html:72
 msgid "LinkedIn"
 msgstr ""
 
-#: app/templates/contact.html:79
+#: templates/contact.html:79
 msgid "Helpful Resources"
 msgstr ""
 
-#: app/templates/contact.html:80
+#: templates/contact.html:80
 msgid "While you wait, these pages may answer common questions."
 msgstr ""
 
-#: app/templates/contact.html:82 app/templates/thank_you.html:26
+#: templates/contact.html:82 templates/thank_you.html:26
 msgid "View FAQs"
 msgstr ""
 
-#: app/templates/contact.html:83
+#: templates/contact.html:83
 msgid "Artwork Submission Guide"
 msgstr ""
 
-#: app/templates/contact.html:84
+#: templates/contact.html:84
 msgid "Current Exhibitions"
 msgstr ""
 
-#: app/templates/events.html:8
-msgid "Explore upcoming exhibitions, talks, and cultural programs."
+#: templates/events.html:7
+msgid "Auctions, talks & open studios"
 msgstr ""
 
-#: app/templates/events.html:21
-msgid "Seasonal Exhibition"
+#: templates/events.html:13
+msgid "Next Auction"
 msgstr ""
 
-#: app/templates/events.html:22 app/templates/events.html:31
-#: app/templates/events.html:40
-msgid "Date:"
+#: templates/events.html:21
+msgid "Spring Auction"
 msgstr ""
 
-#: app/templates/events.html:22
-msgid "12 May 2026"
+#: templates/events.html:22
+msgid "Gallery, Main Hall"
 msgstr ""
 
-#: app/templates/events.html:23
-msgid "A curated showcase of contemporary works from featured artists."
+#: templates/events.html:24
+msgid ""
+"Our spring auction features selected works from the permanent collection "
+"alongside new submissions from emerging artists."
 msgstr ""
 
-#: app/templates/events.html:30
-msgid "Artist Talk"
+#: templates/events.html:36
+msgid "Artist Talk: Kenji Sato"
 msgstr ""
 
-#: app/templates/events.html:31
-msgid "26 May 2026"
+#: templates/events.html:37
+msgid "Gallery, Reading Room"
 msgstr ""
 
-#: app/templates/events.html:32
-msgid "Join an open discussion with guest artists about process and inspiration."
+#: templates/events.html:39
+msgid ""
+"Join Kenji Sato for an intimate conversation about memory, language, and "
+"abstract expressionism."
 msgstr ""
 
-#: app/templates/events.html:39
-msgid "Community Workshop"
+#: templates/events.html:51
+msgid "Open Studio Weekend"
 msgstr ""
 
-#: app/templates/events.html:40
-msgid "9 June 2026"
+#: templates/events.html:52
+msgid "Gallery, All Floors"
 msgstr ""
 
-#: app/templates/events.html:41
-msgid "Hands-on creative workshop open to students and local communities."
+#: templates/events.html:54
+msgid ""
+"The gallery opens all studio spaces to the public with free admission. "
+"Artists will be present throughout the weekend."
 msgstr ""
 
-#: app/templates/faq.html:7
+#: templates/events.html:66
+msgid "Community Print Workshop"
+msgstr ""
+
+#: templates/events.html:67
+msgid "Gallery, Education Studio"
+msgstr ""
+
+#: templates/events.html:69
+msgid ""
+"A hands‑on workshop exploring basic printmaking techniques. Open to "
+"students and local community members."
+msgstr ""
+
+#: templates/faq.html:7
 msgid "Frequently Asked Questions"
 msgstr ""
 
-#: app/templates/faq.html:8
+#: templates/faq.html:8
 msgid "Quick answers to common visitor, artist, and submission questions."
 msgstr ""
 
-#: app/templates/faq.html:23
+#: templates/faq.html:23
 msgid "How long does it take to receive a reply?"
 msgstr ""
 
-#: app/templates/faq.html:28
+#: templates/faq.html:28
 msgid ""
 "We usually respond within 1 to 2 business days. Messages sent outside "
 "office hours are handled on the next working day."
 msgstr ""
 
-#: app/templates/faq.html:35
+#: templates/faq.html:35
 msgid "What should I include in an artwork submission?"
 msgstr ""
 
-#: app/templates/faq.html:40
+#: templates/faq.html:40
 msgid ""
 "Please include your contact details, artwork title, medium, year, "
 "description, and at least one clear image. A portfolio and CV/resume can "
 "also be attached."
 msgstr ""
 
-#: app/templates/faq.html:47
+#: templates/faq.html:47
 msgid "Can I contact the gallery about partnerships or events?"
 msgstr ""
 
-#: app/templates/faq.html:52
+#: templates/faq.html:52
 msgid ""
 "Yes. Choose the partnership, collaboration, or events option in the "
 "contact form and include the relevant dates, audience, and proposal "
 "details."
 msgstr ""
 
-#: app/templates/faq.html:59
+#: templates/faq.html:59
 msgid "Contact the Team"
 msgstr ""
 
-#: app/templates/gallery.html:8
+#: templates/gallery.html:8
 msgid "A curated selection from the gallery collection."
 msgstr ""
 
-#: app/templates/gallery.html:28 app/templates/gallery.html:55
-#: app/templates/gallery.html:67 app/templates/gallery.html:79
+#: templates/gallery.html:28 templates/gallery.html:55
+#: templates/gallery.html:67 templates/gallery.html:79
 msgid "View Work"
 msgstr ""
 
-#: app/templates/gallery.html:32
+#: templates/gallery.html:32
 msgid "Mixed media"
 msgstr ""
 
-#: app/templates/gallery.html:53 app/templates/gallery.html:54
+#: templates/gallery.html:53 templates/gallery.html:54
 msgid "Featured work one"
 msgstr ""
 
-#: app/templates/gallery.html:58
-msgid "Stillness in Branches"
-msgstr ""
-
-#: app/templates/gallery.html:59
+#: templates/gallery.html:59
 msgid "Mixed media, 2025"
 msgstr ""
 
-#: app/templates/gallery.html:65 app/templates/gallery.html:66
+#: templates/gallery.html:65 templates/gallery.html:66
 msgid "Featured work two"
 msgstr ""
 
-#: app/templates/gallery.html:70
+#: templates/gallery.html:70
 msgid "Quiet Ground"
 msgstr ""
 
-#: app/templates/gallery.html:71
+#: templates/gallery.html:71
 msgid "Ink and pigment, 2024"
 msgstr ""
 
-#: app/templates/gallery.html:77 app/templates/gallery.html:78
+#: templates/gallery.html:77 templates/gallery.html:78
 msgid "Featured work three"
 msgstr ""
 
-#: app/templates/gallery.html:82
+#: templates/gallery.html:82
 msgid "Light Between Leaves"
 msgstr ""
 
-#: app/templates/gallery.html:83
+#: templates/gallery.html:83
 msgid "Oil on canvas, 2026"
 msgstr ""
 
-#: app/templates/gallery.html:89
+#: templates/gallery.html:89
 msgid "Live catalog data will appear here when painting records are connected."
 msgstr ""
 
-#: app/templates/index.html:7
+#: templates/index.html:7
 msgid "Welcome to the Global Art Gallery"
 msgstr ""
 
-#: app/templates/index.html:8
+#: templates/index.html:8
 msgid "Celebrating art and culture from around the world."
 msgstr ""
 
-#: app/templates/index.html:9
+#: templates/index.html:9
 msgid "Explore Gallery"
 msgstr ""
 
-#: app/templates/index.html:18
+#: templates/index.html:18
 msgid "Featured Preview"
 msgstr ""
 
-#: app/templates/index.html:22
+#: templates/index.html:21
+msgid "Tree artwork 1"
+msgstr ""
+
+#: templates/index.html:22
 msgid "Brief description of the first image goes here."
 msgstr ""
 
-#: app/templates/index.html:27
+#: templates/index.html:26
+msgid "Tree artwork 2"
+msgstr ""
+
+#: templates/index.html:27
 msgid "Brief description of the second image goes here."
 msgstr ""
 
-#: app/templates/index.html:32
+#: templates/index.html:31
+msgid "Tree artwork 3"
+msgstr ""
+
+#: templates/index.html:32
 msgid "Brief description of the third image goes here."
 msgstr ""
 
-#: app/templates/painting.html:30
+#: templates/painting.html:30
 msgid "View All Works"
 msgstr ""
 
-#: app/templates/submit.html:7
+#: templates/submit.html:7
 msgid "Submit Your Artwork"
 msgstr ""
 
-#: app/templates/submit.html:8
+#: templates/submit.html:8
 msgid ""
 "Fill in the form below. Our team will review your submission and be in "
 "touch."
 msgstr ""
 
-#: app/templates/submit.html:22
+#: templates/submit.html:22
 msgid ""
 "Thank you! Your submission has been received. We will review it and get "
 "back to you."
 msgstr ""
 
-#: app/templates/submit.html:33
+#: templates/submit.html:33
 msgid "Artist Information"
 msgstr ""
 
-#: app/templates/submit.html:37
+#: templates/submit.html:37
 msgid "Full Name *"
 msgstr ""
 
-#: app/templates/submit.html:41
+#: templates/submit.html:41
 msgid "Email Address *"
 msgstr ""
 
-#: app/templates/submit.html:47
+#: templates/submit.html:47
 msgid "Phone Number"
 msgstr ""
 
-#: app/templates/submit.html:49
+#: templates/submit.html:49
 msgid "Enter your contact number"
 msgstr ""
 
-#: app/templates/submit.html:53
+#: templates/submit.html:53
 msgid "Artist Statement"
 msgstr ""
 
-#: app/templates/submit.html:55
+#: templates/submit.html:55
 msgid "Tell us about yourself and your artistic background..."
 msgstr ""
 
-#: app/templates/submit.html:59
+#: templates/submit.html:59
 msgid "Artist Portfolio"
 msgstr ""
 
-#: app/templates/submit.html:62
+#: templates/submit.html:62
 msgid ""
 "Optional — upload a PDF, ZIP, or image file of your portfolio. Max size: "
 "20MB."
 msgstr ""
 
-#: app/templates/submit.html:66
+#: templates/submit.html:66
 msgid "Artist CV / Resume"
 msgstr ""
 
-#: app/templates/submit.html:69
+#: templates/submit.html:69
 msgid "Optional — upload your CV or resume in PDF or Word format. Max size: 10MB."
 msgstr ""
 
-#: app/templates/submit.html:75
+#: templates/submit.html:75
 msgid "Artwork Details"
 msgstr ""
 
-#: app/templates/submit.html:78
+#: templates/submit.html:78
 msgid "Artwork Title *"
 msgstr ""
 
-#: app/templates/submit.html:84
+#: templates/submit.html:84
 msgid "Medium / Type *"
 msgstr ""
 
-#: app/templates/submit.html:86
+#: templates/submit.html:86
 msgid "Select a medium..."
 msgstr ""
 
-#: app/templates/submit.html:87
+#: templates/submit.html:87
 msgid "Painting"
 msgstr ""
 
-#: app/templates/submit.html:88
+#: templates/submit.html:88
 msgid "Sculpture"
 msgstr ""
 
-#: app/templates/submit.html:89
+#: templates/submit.html:89
 msgid "Photography"
 msgstr ""
 
-#: app/templates/submit.html:90
+#: templates/submit.html:90
 msgid "Digital Art"
 msgstr ""
 
-#: app/templates/submit.html:91
+#: templates/submit.html:91
 msgid "Printmaking"
 msgstr ""
 
-#: app/templates/submit.html:92
+#: templates/submit.html:92
 msgid "Textile / Fibre"
 msgstr ""
 
-#: app/templates/submit.html:93
+#: templates/submit.html:93
 msgid "Mixed Media"
 msgstr ""
 
-#: app/templates/submit.html:98
+#: templates/submit.html:98
 msgid "Year Created *"
 msgstr ""
 
-#: app/templates/submit.html:105
+#: templates/submit.html:105
 msgid "Description / Concept *"
 msgstr ""
 
-#: app/templates/submit.html:107
+#: templates/submit.html:107
 msgid "Describe the artwork, its inspiration, and meaning..."
 msgstr ""
 
-#: app/templates/submit.html:112
+#: templates/submit.html:112
 msgid "Upload Artwork Image *"
 msgstr ""
 
-#: app/templates/submit.html:115
+#: templates/submit.html:115
 msgid "Accepted formats: JPG, PNG, WEBP. Max size: 10MB."
 msgstr ""
 
-#: app/templates/submit.html:125
+#: templates/submit.html:125
 msgid ""
 "I confirm that this is my original work and I consent to the gallery "
 "reviewing it for potential display. *"
 msgstr ""
 
-#: app/templates/submit.html:132
+#: templates/submit.html:132
 msgid "Clear Form"
 msgstr ""
 
-#: app/templates/submit.html:135
+#: templates/submit.html:135
 msgid "Submit for Review"
 msgstr ""
 
-#: app/templates/thank_you.html:7
+#: templates/thank_you.html:7
 msgid "Thank You"
 msgstr ""
 
-#: app/templates/thank_you.html:8
+#: templates/thank_you.html:8
 msgid "Your enquiry has been received."
 msgstr ""
 
-#: app/templates/thank_you.html:21
+#: templates/thank_you.html:21
 msgid "We will be in touch soon"
 msgstr ""
 
-#: app/templates/thank_you.html:22
+#: templates/thank_you.html:22
 msgid ""
 "Thank you for contacting Global Art Gallery. Our team reviews enquiries "
 "during business hours and usually replies within 1 to 2 business days."
 msgstr ""
 
-#: app/templates/thank_you.html:23
+#: templates/thank_you.html:23
 msgid ""
 "If your question is urgent, you can also contact us by phone during our "
 "office hours or use the resources below."
 msgstr ""
 
-#: app/templates/thank_you.html:25
+#: templates/thank_you.html:25
 msgid "Back to Contact"
 msgstr ""
 
