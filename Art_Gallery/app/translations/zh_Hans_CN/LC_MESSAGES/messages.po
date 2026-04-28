@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2026-04-28 12:58+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2026-04-28 12:58+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh_Hans_CN\n"
 "Language-Team: zh_Hans_CN <LL@li.org>\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: artistdata.py:12
 msgid "An Irish mixed‑media artist exploring stillness and organic form."
-msgstr ""
+msgstr "一位探索静谧与有机形态的爱尔兰综合媒介艺术家。"
 
 #: artistdata.py:14
 msgid ""
@@ -32,11 +32,11 @@ msgid ""
 "edges, where she studies how weather changes the tone of a place. Aoife "
 "is drawn to the spaces between things: the pause before movement, the "
 "hollow under roots, and the thin light that settles after rain."
-msgstr ""
+msgstr "艾芙·墨菲出生于爱尔兰科克，她的综合媒介作品源自自然界中安静的细节。她将墨水、树皮纹理、压制的植物和手工纸结合在一起，创造出层叠的表面，给人一种收集而非刻意构图的感觉。她的创作始于在林间小路和海岸边漫步时填满的速写本，在那里她观察天气如何改变一个地方的色调。艾芙被事物之间的空间所吸引：动作前的停顿、根下的空洞，以及雨后渐渐沉淀的微光。"
 
 #: artistdata.py:26
 msgid "A Kyoto‑based painter blending abstraction with calligraphic gesture."
-msgstr ""
+msgstr "一位融合抽象与书法笔触的京都画家。"
 
 #: artistdata.py:28
 msgid ""
@@ -47,11 +47,11 @@ msgid ""
 "aesthetics of wabi-sabi and yūgen. He enjoys making his thoughts visible "
 "through the process of painting, allowing for spontaneity and "
 "imperfection to guide the final composition."
-msgstr ""
+msgstr "佐藤健二1971年出生于日本京都。他的作品处于当代抽象与传统笔墨实践的交界处。他的绘画强调平衡、留白和节奏，描绘自然与记忆的体验，常借鉴侘寂与幽玄的美学。他享受通过绘画使思想可视化的过程，让自发性和不完美引导最终的构图。"
 
 #: artistdata.py:38
 msgid "A Spanish painter working with light, pigment, and restrained colour."
-msgstr ""
+msgstr "一位运用光线、颜料和克制色彩的西班牙画家。"
 
 #: artistdata.py:40
 msgid ""
@@ -63,15 +63,16 @@ msgid ""
 " more intimate and reflective. Lucía keeps her palette restrained so that"
 " slight shifts in warmth, shadow, and reflection carry the emotional "
 "weight of the piece."
-msgstr ""
+msgstr "露西亚·费尔南德斯出生于西班牙瓦伦西亚，专注于描绘室内、门槛以及静谧中不设防的瞬间。她以薄薄的油彩和颜料层层叠加，缓慢地构建色彩，使画面保留每一次调整的痕迹。她的构图常从记忆中的房间或一片午后的光线开始，然后走向更亲密、更具反思性的表达。露西亚将调色板保持克制，让温度、阴影和反射的微妙变化承载作品的情感重量。"
 
 #: artistdata.py:52
 msgid ""
 "A Chinese painter blending ink traditions with contemporary landscape "
 "memory."
-msgstr ""
+msgstr "一位将水墨传统与当代风景记忆融合的中国画家。"
 
 #: artistdata.py:54
+#, fuzzy
 msgid ""
 "Mei Lin Zhang was born in Hangzhou, China, and works between traditional "
 "ink painting and contemporary mixed media. Her paintings often begin with"
@@ -81,133 +82,129 @@ msgid ""
 "landscape, and how a single line can suggest both distance and intimacy. "
 "Mei Lin’s practice is grounded in patience, repetition, and close "
 "attention to the surfaces where water, paper, and pigment meet."
-msgstr ""
+msgstr "张美林出生于中国杭州，游走于传统水墨画与当代综合媒介之间。她的绘画常始于在河畔、老园林和静谧石径边所做的田野笔记，然后演变为平衡氛围与结构的层叠构图。她对记忆如何改变风景的形态感兴趣，也关注一根线条如何同时暗示距离与亲密。美林的创作植根于耐心、重复，以及对水、纸、颜料交汇之表面的细致关注。"
 
 #: artistdata.py:70 templates/gallery.html:58
 msgid "Stillness in Branches"
 msgstr "枝间静谧"
 
 #: artistdata.py:73
-#, fuzzy
 msgid "Ink and mixed media"
-msgstr "综合媒介"
+msgstr "水墨与综合媒介"
 
 #: artistdata.py:76
 msgid ""
 "A quiet composition built from layered ink washes and brittle line work, "
 "suggesting suspended movement."
-msgstr ""
+msgstr "由层叠的墨渲染和脆弱的线条构成的静谧作品，暗示着悬停的动态。"
 
 #: artistdata.py:85
-#, fuzzy
 msgid "Quiet Root"
-msgstr "静谧之地"
+msgstr "静根"
 
 #: artistdata.py:88
 msgid "Ink on handmade paper"
-msgstr ""
+msgstr "手工纸上的水墨"
 
 #: artistdata.py:91
 msgid "A minimal study of grounding forms and negative space."
-msgstr ""
+msgstr "对扎根形态与留白的极简研究。"
 
 #: artistdata.py:99
 msgid "Fog Study"
-msgstr ""
+msgstr "雾的习作"
 
 #: artistdata.py:102
 msgid "Ink wash"
-msgstr ""
+msgstr "水墨渲染"
 
 #: artistdata.py:105
 msgid "An atmospheric work exploring diffusion and edge softness."
-msgstr ""
+msgstr "一幅探索扩散与边缘柔和的氛围之作。"
 
 #: artistdata.py:113
 msgid "Moss Line"
-msgstr ""
+msgstr "苔线"
 
 #: artistdata.py:116
 msgid "Ink, pigment, and collage on paper"
-msgstr ""
+msgstr "纸上水墨、颜料与拼贴"
 
 #: artistdata.py:119
 msgid ""
 "A textured study of damp edges, with fragmented marks suggesting the slow"
 " spread of moss along stone and wood."
-msgstr ""
+msgstr "对潮湿边缘的肌理研究，断续的笔迹暗示着苔藓沿石木缓慢蔓延。"
 
 #: artistdata.py:127
 msgid "Shadow Bark"
-msgstr ""
+msgstr "影皮"
 
 #: artistdata.py:130
 msgid "Mixed media on handmade paper"
-msgstr ""
+msgstr "手工纸上的综合媒介"
 
 #: artistdata.py:133
 msgid ""
 "Layered bark rubbings and ink washes create a dark, tactile surface "
 "shaped by shifting woodland shade."
-msgstr ""
+msgstr "层叠的树皮拓印与墨渲染营造出一个深沉、具触感的表面，由变幻的林荫塑造。"
 
 #: artistdata.py:141
 msgid "Silent River"
-msgstr ""
+msgstr "静河"
 
 #: artistdata.py:144
 msgid "Acrylic and sumi ink on canvas"
-msgstr ""
+msgstr "布面丙烯与墨汁"
 
 #: artistdata.py:147
 msgid ""
 "Large gestural strokes echo the movement of water without direct "
 "representation."
-msgstr ""
+msgstr "大笔触回应着水的流动，却不直接描绘。"
 
 #: artistdata.py:155
 msgid "Ink Memory"
-msgstr ""
+msgstr "墨忆"
 
 #: artistdata.py:158
-#, fuzzy
 msgid "Ink on canvas"
-msgstr "布面油画，2026年"
+msgstr "布面水墨"
 
 #: artistdata.py:161
 msgid "A meditative composition balancing repetition and interruption."
-msgstr ""
+msgstr "一幅冥想式的构图，在重复与中断之间取得平衡。"
 
 #: artistdata.py:169
 msgid "Window After Rain"
-msgstr ""
+msgstr "雨后之窗"
 
 #: artistdata.py:172
 msgid "Oil on linen"
-msgstr ""
+msgstr "亚麻布面油画"
 
 #: artistdata.py:175
 msgid ""
 "Soft reflections and washed-out daylight capture the calm atmosphere of a"
 " room just after the storm clears."
-msgstr ""
+msgstr "柔和的反射与淡化的日光捕捉了风暴刚过后房间的平静氛围。"
 
 #: artistdata.py:183
 msgid "Soft Afternoon"
-msgstr ""
+msgstr "柔和的午后"
 
 #: artistdata.py:186
-#, fuzzy
 msgid "Oil on canvas"
-msgstr "布面油画，2026年"
+msgstr "布面油画"
 
 #: artistdata.py:189
 msgid "Muted tones capture the way daylight settles across an empty room."
-msgstr ""
+msgstr "低沉的色调捕捉了日光在空房间中沉淀的方式。"
 
 #: templates/art.html:5
 msgid "Title"
-msgstr ""
+msgstr "标题"
 
 #: templates/art.html:10 templates/base.html:70 templates/gallery.html:7
 msgid "Catalog"
@@ -215,19 +212,19 @@ msgstr "目录"
 
 #: templates/art.html:15
 msgid "Art Piece 1"
-msgstr ""
+msgstr "作品 1"
 
 #: templates/art.html:16 templates/art.html:24 templates/art.html:32
 msgid "Add details about this piece."
-msgstr ""
+msgstr "添加此作品的详细信息。"
 
 #: templates/art.html:23
 msgid "Art Piece 2"
-msgstr ""
+msgstr "作品 2"
 
 #: templates/art.html:31
 msgid "Art Piece 3"
-msgstr ""
+msgstr "作品 3"
 
 #: templates/artists.html:11 templates/gallery.html:38
 #: templates/gallery.html:40 templates/painting.html:25
@@ -244,7 +241,7 @@ msgstr "返回目录"
 
 #: templates/base.html:8
 msgid "Global Art Gallery showcasing culture across borders"
-msgstr ""
+msgstr "跨越国界展示文化的全球艺术画廊"
 
 #: templates/base.html:10 templates/base.html:43
 msgid "Global Art Gallery"
@@ -298,19 +295,19 @@ msgstr "© 2026 全球艺术画廊"
 msgid ""
 "Share your question in your own words. We will reply as clearly as "
 "possible."
-msgstr ""
+msgstr "用您自己的话描述问题，我们会尽可能清楚地回复。"
 
 #: templates/base.html:137
 msgid "Use this form to present your work in your own voice."
-msgstr ""
+msgstr "请用此表单以您自己的方式介绍您的作品。"
 
 #: templates/base.html:138
 msgid "Please complete this field."
-msgstr ""
+msgstr "请填写此项。"
 
 #: templates/base.html:139
 msgid "Please enter a valid email address."
-msgstr ""
+msgstr "请输入有效的电子邮箱地址。"
 
 #: templates/base.html:140 templates/contact.html:44
 msgid "Add a short subject or purpose"
@@ -318,12 +315,11 @@ msgstr "填写简短主题或目的"
 
 #: templates/base.html:141
 msgid "Send this message now?"
-msgstr ""
+msgstr "现在发送此消息吗？"
 
 #: templates/base.html:142
-#, fuzzy
 msgid "Submit your artwork for review now?"
-msgstr "提交您的作品"
+msgstr "现在提交您的作品以供审核吗？"
 
 #: templates/contact.html:8
 msgid ""
@@ -377,7 +373,7 @@ msgstr "其他"
 
 #: templates/contact.html:42
 msgid "If Other, Please Specify"
-msgstr "如选择“其他”，请说明"
+msgstr "如选择\"其他\"，请说明"
 
 #: templates/contact.html:47
 msgid "Message"
@@ -405,7 +401,7 @@ msgstr "周一至周五，上午9:00至下午5:30"
 
 #: templates/contact.html:60
 msgid "Expected Response Time:"
-msgstr "回复时间："
+msgstr "预计回复时间："
 
 #: templates/contact.html:60
 msgid "We aim to respond to calls and emails within 1 to 2 business days."
@@ -457,70 +453,67 @@ msgstr "当前展览"
 
 #: templates/events.html:7
 msgid "Auctions, talks & open studios"
-msgstr ""
+msgstr "拍卖、讲座与开放工作室"
 
 #: templates/events.html:13
 msgid "Next Auction"
-msgstr ""
+msgstr "下一场拍卖"
 
 #: templates/events.html:21
 msgid "Spring Auction"
-msgstr ""
+msgstr "春季拍卖"
 
 #: templates/events.html:22
 msgid "Gallery, Main Hall"
-msgstr ""
+msgstr "画廊，主展厅"
 
 #: templates/events.html:24
 msgid ""
 "Our spring auction features selected works from the permanent collection "
 "alongside new submissions from emerging artists."
-msgstr ""
+msgstr "春季拍卖精选常设收藏作品，以及新锐艺术家的新作品。"
 
 #: templates/events.html:36
-#, fuzzy
 msgid "Artist Talk: Kenji Sato"
-msgstr "艺术家讲座"
+msgstr "艺术家讲座：佐藤健二"
 
 #: templates/events.html:37
 msgid "Gallery, Reading Room"
-msgstr ""
+msgstr "画廊，阅览室"
 
 #: templates/events.html:39
 msgid ""
 "Join Kenji Sato for an intimate conversation about memory, language, and "
 "abstract expressionism."
-msgstr ""
+msgstr "与佐藤健二一同探讨记忆、语言与抽象表现主义，共度亲密对话时光。"
 
 #: templates/events.html:51
 msgid "Open Studio Weekend"
-msgstr ""
+msgstr "开放工作室周末"
 
 #: templates/events.html:52
 msgid "Gallery, All Floors"
-msgstr ""
+msgstr "画廊，全楼层"
 
 #: templates/events.html:54
 msgid ""
 "The gallery opens all studio spaces to the public with free admission. "
 "Artists will be present throughout the weekend."
-msgstr ""
+msgstr "画廊向公众免费开放所有工作室空间，艺术家将在整个周末在场。"
 
 #: templates/events.html:66
-#, fuzzy
 msgid "Community Print Workshop"
-msgstr "社区工作坊"
+msgstr "社区版画工作坊"
 
 #: templates/events.html:67
 msgid "Gallery, Education Studio"
-msgstr ""
+msgstr "画廊，教育工作室"
 
 #: templates/events.html:69
-#, fuzzy
 msgid ""
 "A hands‑on workshop exploring basic printmaking techniques. Open to "
 "students and local community members."
-msgstr "面向学生和本地社区的实践创意工作坊。"
+msgstr "一场探索基本版画技法的动手工作坊，面向学生和本地社区成员开放。"
 
 #: templates/faq.html:7
 msgid "Frequently Asked Questions"
@@ -632,27 +625,24 @@ msgid "Featured Preview"
 msgstr "精选预览"
 
 #: templates/index.html:21
-#, fuzzy
 msgid "Tree artwork 1"
-msgstr "提交您的作品"
+msgstr "树木艺术作品 1"
 
 #: templates/index.html:22
 msgid "Brief description of the first image goes here."
 msgstr "第一张图像的简要描述在此。"
 
 #: templates/index.html:26
-#, fuzzy
 msgid "Tree artwork 2"
-msgstr "提交您的作品"
+msgstr "树木艺术作品 2"
 
 #: templates/index.html:27
 msgid "Brief description of the second image goes here."
 msgstr "第二张图像的简要描述在此。"
 
 #: templates/index.html:31
-#, fuzzy
 msgid "Tree artwork 3"
-msgstr "提交您的作品"
+msgstr "树木艺术作品 3"
 
 #: templates/index.html:32
 msgid "Brief description of the third image goes here."
@@ -829,30 +819,4 @@ msgstr "如果您的问题较紧急，您也可以在营业时间内通过电话
 #: templates/thank_you.html:25
 msgid "Back to Contact"
 msgstr "返回联系页面"
-
-#~ msgid "Explore upcoming exhibitions, talks, and cultural programs."
-#~ msgstr "探索即将举行的展览、讲座和文化项目。"
-
-#~ msgid "Seasonal Exhibition"
-#~ msgstr "季节性展览"
-
-#~ msgid "Date:"
-#~ msgstr "日期："
-
-#~ msgid "12 May 2026"
-#~ msgstr "2026年5月12日"
-
-#~ msgid "A curated showcase of contemporary works from featured artists."
-#~ msgstr "精选当代艺术家的作品展。"
-
-#~ msgid "26 May 2026"
-#~ msgstr "2026年5月26日"
-
-#~ msgid ""
-#~ "Join an open discussion with guest "
-#~ "artists about process and inspiration."
-#~ msgstr "与特邀艺术家共同参与关于创作过程与灵感的开放讨论。"
-
-#~ msgid "9 June 2026"
-#~ msgstr "2026年6月9日"
 
