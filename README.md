@@ -16,7 +16,7 @@ Internationalisation and Localisation Strategy: Flask-Babel; translation files f
 
 Cultural Adaptation Mechanisms: Language — full UI translation across all pages. Tone — formal throughout; no casual or promotional copy. Layout — whitespace-heavy with artist bios prominent on the home page (depth for collectivist users, clarity for Irish). Navigation — curated pathways + open browsing to serve both structured and autonomous expectations. Artwork pages — medium, dimensions, year, description, and artist link on every entry. Colour — neutral whites/blacks/muted tones; red and white-dominant schemes deliberately avoided due to cultural connotations in China and Japan.
 
-
+<hr>
 
 Individual contributions:
 Oleksandr Hroza, C24737185
@@ -27,11 +27,11 @@ Hypothesis implemented: Implementing the artist biography/statement that connect
 
 A personal statement from one of the artists appears on the home page, between featured works and overview of events. 
 
-
+<hr>
 
 Contributions made by Roshan Kadhiwala [D24125279]
 
-Pages / Features Implemented
+### Pages / Features Implemented
 
 I implemented two main user-facing pages: the Contact page and the Submit Artwork page, with a focus on usability, localization, and culturally aware design.
 Contact Page
@@ -108,6 +108,40 @@ Submit Page
 Justified Deviations from Group Guidelines
 •	Locale-based social media visibility
 Instead of showing all platforms equally, social links are conditionally displayed based on language/region to improve relevance and avoid clutter. 
+
+<hr>
+
+### Samuel Goldstein (d24125322) Contributions
+
+Implemented the [art.html, artists.html, events.html, base.html, gallery.html, and, painting.html] as well as the correspondent CSS for said pages. Also worked on tweaking the other pages to match the overall aesthetic of the site. Implemented slight UI changed with the language change.
+
+
+
+ **Chinese UI Changes:**
+Font was changed to one that supports Chinese characters and has the formal, structured stroke style of traditional Chinese print. (Power Distance: formal, authoritative typography reflects China's high power distance culture, where hierarchy and formality are visually communicated.)
+Switched to a Red accent (from gold) red symbolizes luck and prosperity in Chinese culture, making it the most culturally appropriate accent color. (Uncertainty Avoidance: using culturally familiar symbols like red reduces ambiguity and creates immediate cultural recognition for the user.)
+Heavier font weight that mirrors the bold, confident visual weight of Chinese characters and formal Chinese signage. (Power Distance: bold, commanding visuals reinforce the formal and hierarchical tone expected in professional Chinese contexts.)
+Wider letter-spacing that reflects how formal Chinese typography spaces characters generously to convey authority. (Power Distance:  generous spacing signals formality and seriousness, aligning with high power distance expectations.)
+Double-line borders like most Chinese decorative framing traditions. 
+Added a box-shadow because it appeared in a few Chinese galleries (and I honestly thought it looked nice), after investigating it was found that this is done to mimic Chinese woodblock printing, so it was decided to keep it as a part only for Chinese translation. 
+
+**Japanese UI Changes:**
+Font was changed to one that supports Japanese characters and has a noticeably lighter, more elegant stroke than the Chinese variant. (Indulgence vs. Restraint:  the lighter stroke reflects Japan's restrained, understated design culture.)
+More light weight + more line-height, reflects ma, the Japanese concept of meaningful empty space and airiness in composition, while our design already somewhat applied this principle as we decided to go for a more minimalist design we found it was still possible to apply "ma". (in essence making our design more minimalistic than it already is). (Individualism vs. Collectivism:  ma as a design principle reflects a collective cultural understanding that silence and space carry meaning, not just content.)
+Radius decreased to 0px, the sharp corners are a consistent feature of Japanese design across architecture, print and product design. (Uncertainty Avoidance:  precise, defined edges reflect Japan's high uncertainty avoidance, favoring clarity and exactness over ambiguity.)
+Thinned out the borders, the new thinner borders reflect the Japanese value of restraint and understatement (wabi-sabi). (Indulgence vs. Restraint:  thinner borders embody wabi-sabi, the acceptance of impermanence and simplicity over decoration.)
+Changed it to a blue accent (from gold) the blue accent is similar to the blue-grey tone of sumi ink used in Japanese calligraphy and ink wash painting.
+
+
+### Hypotheses implemented:
+
+**Hypothesis 1:**
+Artist biography pages were implemented across all three versions of the site. Each artwork page includes an artist card with a photo and a short biography, aswell as a dedicated artist page that expands this into a full story with a portrait of them (currently a tree) and a grid of their works (also currently trees). This supports collectivist audiences in China and Japan who value understanding someone's place within a broader context, as well as the Irish preference for personal connection with the people behind the work.
+
+**Hypothesis 3:**
+Every artwork card and painting page across all three versions clearly displays the medium and material beneath the title, with the full painting page also showing the dimensions. This helps prospective artists immediately see their medium represented, removing any uncertainty about whether their work would be welcomed. It also satisfies the preference in Chinese and Japanese cultures for structured, clearly organized information.
+
+<hr>
 
 Additional Sections
 Setup Instructions
