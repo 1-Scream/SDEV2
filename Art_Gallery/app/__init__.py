@@ -1,5 +1,9 @@
+import os
 from flask import Flask, session, request
 from flask_babel import Babel
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # This will set the language variable in session for the Babel app.
 # If no language is set in session, return the best browser match.
@@ -15,7 +19,7 @@ def get_locale():
 app = Flask(__name__)
 
 # Session language uses secret key
-app.secret_key = 'a secret key'
+app.secret_key = os.environ.get('SECRET_KEY')
 
 
 # Hook Babel into the app
